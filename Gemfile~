@@ -6,8 +6,9 @@ gem 'rails', '4.0.0'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
-# Ligne ajoutée pour suivre le tuto HEROKU
+# Lignes ajoutées pour suivre le tuto HEROKU
 gem 'rails_12factor', group: :production
+ruby "1.9.3"
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -33,6 +34,11 @@ gem 'jbuilder', '~> 1.2'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
+end
+
+group :development do
+ gem 'rspec-rails' 
+ gem 'annotate'
 end
 
 # Use ActiveModel has_secure_password

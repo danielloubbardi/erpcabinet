@@ -49,7 +49,7 @@ test:
   database: erpcabinet_test
   pool: 5
   username: erpcabinet
-  password: minimo1234
+  password:
 
 production:
   adapter: postgresql
@@ -57,4 +57,4 @@ production:
   database: erpcabinet_production
   pool: 5
   username: erpcabinet
-  password: minimo1234
+  password:
