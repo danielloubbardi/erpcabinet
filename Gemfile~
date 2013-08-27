@@ -3,12 +3,22 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
+# Utilisation du framwerk CSS Bootstrap et SASS
+gem 'bootstrap-sass'
+
 # Use postgresql as the database for Active Record
 gem 'pg'
 
+# Lignes ajoutées pour suivre le tuto DEVISE + CANCAN + ROLIFY
+
+gem 'devise'
+gem 'cancan'
+gem 'rolify'
+
+
 # Lignes ajoutées pour suivre le tuto HEROKU
 gem 'rails_12factor', group: :production
-ruby "1.9.3"
+ruby "2.0.0"
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'

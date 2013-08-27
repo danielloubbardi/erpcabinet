@@ -1,17 +1,8 @@
-# == Schema Information
-#
-# Table name: users
-#
-#  admin           :boolean
-#  created_at      :datetime
-#  email           :string(255)
-#  id              :integer          not null, primary key
-#  name            :string(255)
-#  password_digest :string(255)
-#  remember_token  :string(255)
-#  updated_at      :datetime
-#
-
 class User < ActiveRecord::Base
- 
+  rolify
+  # Include default devise modules. Others available are:
+  # :token_authenticatable, :confirmable,
+  # :lockable, :timeoutable and :omniauthable
+  devise :database_authenticatable, :registerable,
+         :recoverable, :rememberable, :trackable, :validatable
 end
