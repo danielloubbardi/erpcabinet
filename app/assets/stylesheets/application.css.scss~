@@ -10,7 +10,7 @@
  *
  
 *= require_self
-
+* j'ai supprimé le require_tree pour ne pas charger tous les css du dossier sans respecter l'ordre ci dessous
 * CSS pour le theme JARVIS ADMIN (L'ordre est respecté)
 *= require datepicker
 *= require fullcalendar

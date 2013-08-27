@@ -15,29 +15,10 @@
 
 	<%= stylesheet_link_tag "application",media: "all", "data-turbolinks-track" => true %>
 	
-
-	
-	
-	<!-- // Ne pas supprimer ou changer l'ordre de ce qui suit!!! // -->
-	
-	<%= stylesheet_link_tag "bootstrap.min",
-				"bootstrap-responsive.min",
-				"font-awesome.min",
-				"cus-icons",
-				"jarvis-widgets",
-				"DT_bootstrap",
-				"responsive-tables",
-				"uniform.default",
-				"select2",
-				"theme",
-				"theme-responsive",
-					media: "all",
-					"data-turbolinks-track" => true %>
-
-	
+		
 	<!-- // THEME CSS changed by javascript: the CSS link below will override the rules above // -->
 	<!-- For more information, please see the documentation for "THEMES" -->
-	<%= stylesheet_link_tag "themes/default", :id => "switch-theme-js" , media: "all", "data-turbolinks-track" => true %>
+	<%= stylesheet_link_tag "default", :id => "switch-theme-js" , media: "all", "data-turbolinks-track" => true %>
 	<!-- To switch to full width -->
 	<%= stylesheet_link_tag "full-width", :id => "switch-width" , media: "all", "data-turbolinks-track" => true %>
 	
