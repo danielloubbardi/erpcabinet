@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 
 # Utilisation du framwerk CSS Bootstrap et SASS
-gem 'bootstrap-sass', '~> 2.3.2.1'
+gem 'bootstrap-sass', '2.3.2.1'
 
 # Use postgresql as the database for Active Record
 gem 'pg'

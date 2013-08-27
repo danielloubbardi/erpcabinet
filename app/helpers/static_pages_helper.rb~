@@ -1,0 +1,13 @@
+module StaticPagesHelper
+
+	def zob(mot)
+
+		if mot.empty?
+		"Il n'y a pas de mot saisi"
+		else
+		"va te faire enculer chez les #{mot}!"
+		end
+
+	end
+
+end

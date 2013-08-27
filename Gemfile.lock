@@ -142,7 +142,7 @@ PLATFORMS
 
 DEPENDENCIES
   annotate
-  bootstrap-sass (~> 2.3.2.1)
+  bootstrap-sass (= 2.3.2.1)
   cancan
   coffee-rails (~> 4.0.0)
   devise
