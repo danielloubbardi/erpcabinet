@@ -1,0 +1,66 @@
+Créer un nouveau repository avec Git et Github
+1. Sur le PC aller dans le dossier à controler avec Git et faire  git init
+2. git add .        (le point est important il permet d'ajouter le dossier courant et de façon récursive)
+3. git commit -m    (m pour saisir un message/commentaire relatif a ce commit)
+4. Ensuite aller sur github et créer un nouveau repository
+5. git remote add origin git@github.com:danielloubbardi/applicabinet.git
+6. git push origin master
+
+
+TUTORIEL POUR HEROKU ET RAILS 4
+Attention HEROKU ne supporte pas SQLITE, il faut faut mettre POSTGRESQL comme base de données par défaut
+Le tuto  : https://devcenter.heroku.com/articles/rails4-getting-started
+
+PARAMETRAGE DE POSTGRESQL
+	
+	Voir ce tuto qui a marché pour moi
+	http://samonzeweb.tumblr.com/post/13117654880/rails-postgresql
+
+RAILS COMMAND LINE BASICS
+
+	There are a few commands that are absolutely critical to your everyday usage of Rails. In the order of how much you'll probably use them are:
+	rails console
+	rails console –sandbox (Toute modification que vous ferez sera oubliée en quittant le bac à sable).
+	rails server (Sert à lancer le serveur web local Webrick)
+	rake
+	rails generate 
+	rails dbconsole
+	rails new app_name
+
+	Pour visualiser les états de bas niveau de SQL renvoyés par Active Record
+	tail -f log/development.log
+
+
+CREATION D'UN MODÈLE DANS RAILS
+
+	rails generate User nom:string email:string                  (etc....)
+
+ANNOTATE:
+
+	Pour utiliser les annotations (Permet de décrire la table correspondant au modele) il faut ajouter le gem annotate au fichier Gemfile puis faire : bundle install
+
+	Puis pour annoter tous les models se mettre a la racine de l'appli et faire : bundle exec annotate --sort  (sort : pour classer les tables dans l'ordre alphabetique)
+	 voir la page de github : https://github.com/ctran/annotate_models
+
+
+GESTION DES UTILISATEURS AVEC DEVISE
+
+
+
+GESTION DES AUTORISATIONS ET DES DROITS D'ACCÈS AVEC CANCAN
+
+
+INSTALLATION DE BOOTSTRAP
+	ajouter au gemfile :
+	gem 'bootstrap-sass', '2.3.2.0'
+
+	puis run : bundle install
+
+	Pour garantir la compatibilité avec le ASSET PIPELINE
+	ajouter cette ligne dans le fichier config/application.rb :
+	config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+
+	puis créer dans app/assets/stylesheets/custom.css.scss
+	puis mettre dans le fichier custom.css.scss la ligne @import "bootstrap";
+
+

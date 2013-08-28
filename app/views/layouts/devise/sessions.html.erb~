@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    <title>ERPcabinet</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+
+	<%= stylesheet_link_tag "application",media: "all", "data-turbolinks-track" => true %>
+    
+	<!-- For everything else -->
+	<link rel="shortcut icon" href="images/favicons/g3897-COLOR.ico" />
+
+ </head>
+
+  
+
+	<body>
+  	<!-- .height-wrapper -->
+	<div class="height-wrapper">
+				
+			<div id="login-logo">
+				
+			</div>
+			<div class="jarviswidget login">
+				<header>
+					<h2>{JARVIS} - Credentials</h2>
+				</header>
+				
+					<div class="widget alert alert-info adjusted">
+						<i class="cus-exclamation"></i>
+						<strong>Please type in your username and password.</strong>
+					</div>
+
+					<!-- content goes here -->
+					<div id="main-content">
+						
+						<form class="form-signin" id="target" action="index.html" />
+							<div class="control-group">
+								<input type="text" class="input-block-level" autofocus="autofocus" placeholder="Username" value="Admin" />
+							</div>
+							<div class="control-group">
+								<input type="password" class="input-block-level" placeholder="Password" value="admin" />
+							</div>
+							<div class="control-group no-border">
+								<div style="text-align: right;">
+									<input class="btn btn-primary" type="submit" value="Sign in" id="login-btn" />
+								</div>
+							</div>
+						</form>
+						
+					</div>
+					<!-- end content goes here -->
+						
+			</div>
+		
+	</div>
+	<!-- end .height-wrapper -->	
+	
+	<!-- footer -->
+	
+	<!-- if you like you can insert your footer here -->
+	
+	<!-- end footer -->
+
+
+  </body>
+</html>

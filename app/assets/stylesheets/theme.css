@@ -2742,7 +2742,7 @@
 	/* ---------------------------------------------------------------------- */
 	
 	#login-logo {
-		background:url('../img/favicons/apple-touch-icon-retina.png') top left transparent no-repeat;
+		background:url('../assets/favicons/apple-touch-icon-retina.png') top left transparent no-repeat;
 		display:block;
 		width:114px;
 		height:82px;
@@ -3984,7 +3984,7 @@
 	
 	#login {
 		width: 278px;
-		background: #7EA437 url(../img/backgrounds/menu_bg.png) repeat-x;
+		background: #7EA437 url(../images/backgrounds/menu_bg.png) repeat-x;
 		-webkit-background-size: 100% 100%;
 		-moz-background-size: 100% 100%;
 		-o-background-size: 100% 100%;

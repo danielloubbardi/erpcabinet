@@ -1,0 +1,328 @@
+		
+	    <div id="main" role="main" class="container-fluid">
+			<div class="contained">
+				<!-- aside -->	
+				<aside>	
+					
+					<!-- search box -->
+					<div class="main-search">
+						<label for="main-search"><i class="icon-search"></i></label>
+	                    <input id="main-search" type="text" placeholder="Search..." />
+                	</div>
+					<div class="divider"></div>
+					<!-- end search box -->
+										
+					<!-- aside item: Mini profile -->
+					<div class="my-profile">
+						<a href="javascript:void(0)" class="my-profile-pic">
+							<img src="img/avatar/avatar_0.jpg" alt="" />
+						</a>
+						<span class="first-child">Welcome <strong>Victoria!</strong></span>
+						<span><a href="javascript:void(0);">Edit Profile </a></span>
+					</div>
+					<div class="divider"></div>
+					<!-- end aside item: Mini profile -->
+
+					<!-- aside item: Menu -->
+					<div class="sidebar-nav-fixed">
+						
+						<ul class="menu" id="accordion-menu-js">
+							<li class="">
+								<a href="javascript:void(0)"><i class="icon-off"></i>Dashboard <span class="badge">2</span></a>
+								<ul>
+									<li>
+										<a href="index.html">Dashboard</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);" class="logout-js" data-rel="login.html">Logout</a>
+									</li>
+								</ul>
+							</li>
+							<li class="">
+								<a href="inbox.html" class="expanded"><i class="icon-envelope"></i>Inbox</a>
+							</li>
+							<li class="">
+								<a href="javascript:void(0)"><i class="icon-check"></i>Forms<span class="badge">3</span></a>
+								<ul>
+									<li>
+										<a href="forms.html">Form Elements</a>
+									</li>
+									<li>
+										<a href="validation.html">Validation</a>
+									</li>
+									<li>
+										<a href="wizard.html">Wizards</a>
+									</li>
+								</ul>
+							</li>
+							<li class="">
+								<a href="javascript:void(0)"><i class="icon-user"></i>Interface<span class="badge">3</span></a>
+								<ul>
+									<li>
+										<a href="interface.html">Interface Elements</a>
+									</li>
+									<li>
+										<a href="buttons.html">Buttons &amp; Icons</a>
+									</li>
+									<li>
+										<a href="tables.html">Tables</a>
+									</li>
+								</ul>
+							</li>
+							<li class="">
+								<a href="javascript:void(0)"><i class="icon-signal"></i>Charts &amp; Graphs<span class="badge">2</span></a>
+								<ul>
+									<li>
+										<a href="basic_charts.html">Basic Charts</a>
+									</li>
+									<li>
+										<a href="adv_charts.html">Advanced Charts</a>
+									</li>
+								</ul>
+							</li>
+							<li class="">
+								<a href="widgets.html"><i class="icon-refresh"></i>Smart Widgets</a>
+							</li>
+							<li class="current">
+								<a href="javascript:void(0)"><i class="icon-plus"></i>Bonus<span class="badge">3</span></a>
+								<ul>
+									<li>
+										<a href="invoice.html">Invoice</a>
+									</li>
+									<li>
+										<a href="typography.html" class="expanded">Typography</a>
+									</li>
+									<li>
+										<a href="chat.html">Chat</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						
+					</div>
+					<div class="divider"></div>
+					<!-- end aside item: Menu -->
+		            
+				</aside>
+				<!-- aside end -->
+				
+				<!-- main content -->
+				<div id="page-content">
+					<!-- page header -->
+					<h1 id="page-header">Bonus > Typography</h1>	
+
+					<div class="fluid-container">
+							
+						<!-- Typography -->
+						<div class="row-fluid">
+							<div class="well span6">
+								<code class="pull-right">.well</code>
+								<h1>h1. Heading 1</h1>
+								<code>default</code>
+								<p class="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+								
+								<h2>h2. Heading 2</h2>
+								<code>class="red"</code>
+								<p class="red">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+								
+								<h3>h3. Heading 3</h3>
+								<code>class="green"</code>
+								<p class="green">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+								
+								<h4>h4. Heading 4</h4>
+								<code>class="purple"</code>
+								<p class="purple">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+								
+								<h5>h5. Heading 5</h5>
+								<code>class="yellow"</code>
+								<p class="yellow">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+								
+								<h6>h6. Heading 6</h6>
+								<code>class="pink"</code>
+								<p class="pink">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+							
+								<code>class="orange"</code>
+								<p class="orange">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+							
+							</div>
+							
+							<div class="well light span6">
+								<code class="pull-right">.well .light</code>
+								<h1>h1. Heading 1</h1>
+								<code>default</code>
+								<p class="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+								
+								<h2>h2. Heading 2</h2>
+								<code>class="red"</code>
+								<p class="red">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+								
+								<h3>h3. Heading 3</h3>
+								<code>class="green"</code>
+								<p class="green">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+								
+								<h4>h4. Heading 4</h4>
+								<code>class="purple"</code>
+								<p class="purple">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+								
+								<h5>h5. Heading 5</h5>
+								<code>class="yellow"</code>
+								<p class="yellow">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+								
+								<h6>h6. Heading 6</h6>
+								<code>class="pink"</code>
+								<p class="pink">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+							
+								<code>class="orange"</code>
+								<p class="orange">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+							
+							</div>
+						</div>
+						
+						<div class="row-fluid">
+							<div class="well light span12">
+								<p>Wrap <code>blockquote</code> around any DOM element as quote</p>
+								<div class="row-fluid">
+									<div class="span6">
+										<blockquote>
+											<p>
+												“I’m not in this world to live up to your expectations and you’re not in this world to live up to mine.” 
+											</p>
+											<small><cite title="Bruce Lee">Bruce Lee</cite></small>
+										</blockquote>
+									</div>
+									<div class="span6">
+										<blockquote class="pull-right">
+											<p>
+												“A wise man can learn more from a foolish question than a fool can learn from a wise answer.” 
+											</p>
+											<small><cite title="Bruce Lee">Bruce Lee</cite></small>
+										</blockquote>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="row-fluid">
+							<div class="well light span4">
+								<p>
+									Unordered List <code>ul</code>
+								</p>
+								<ul>
+									<li>Sed ut perspiciatis unde omnis</li>
+									<li>
+										 Natus error sit voluptatem accusantium doloremqu
+										<ul>
+											<li>Eaque ipsa quae ab illo inventore veritatis et</li>
+											<li>Totam rem aperiam eaque 
+												<ul>
+													<li>Allo inventore veritatis et quasi</li>
+													<li>Ac tristique libero volutpat</li>
+												</ul>
+											</li>
+											<li>Error sit voluptatem accusantium doloremq</li>
+											<li>Eriam eaque ipsa quae ab illo</li>
+										</ul>
+									</li>
+									<li>Faucquae ab illo inventore verit</li>
+									<li>Sed ut perspiciatis unde omnis nunc</li>
+									<li>Perspiciatis unde </li>
+								</ul>
+			
+							</div>
+				
+							<div class="well light span4">
+								<p>
+									Number List <code>ol</code>
+								</p>
+									<ol>
+										<li>Sed ut perspiciatis unde omnis</li>
+										<li>Totam rem aperiam eaque </li>
+										<li>Natus error sit voluptatem accusantium doloremqu</li>
+										<li>Eriam eaque ipsa quae ab illo</li>
+										<li>Error sit voluptatem accusantium doloremq
+											<ol type="a">
+												</ol></li><li>Sed ut perspiciatis unde omnis nunc</li>
+												<li>Perspiciatis unde</li>
+											
+										
+										<li>Ac tristique libero volutpat</li>
+										<li>Allo inventore veritatis et quasi</li>
+										<li>Eaque ipsa quae ab illo inventore veritatis et</li>
+										<li>Sed ut perspiciatis unde omnis nunc</li>
+									
+							</ol></div>
+							
+							<div class="well light span4">
+								<p>
+									Custom List <code>ul.custom-list</code>
+								</p>
+									<ul class="custom-list">
+										<li>Sed ut perspiciatis unde omnis</li>
+										<li>Totam rem aperiam eaque </li>
+										<li>Natus error sit voluptatem accusantium doloremqu</li>
+										<li>Eriam eaque ipsa quae ab illo</li>
+										<li>Error sit voluptatem accusantium doloremq</li>
+										<li>Sed ut perspiciatis unde omnis nunc</li>
+										<li>Perspiciatis unde</li>
+										<li>Ac tristique libero volutpat</li>
+										<li>Allo inventore veritatis et quasi</li>
+										<li>Eaque ipsa quae ab illo inventore veritatis et</li>
+										<li>Sed ut perspiciatis unde omnis nunc</li>
+									</ul>
+							</div>
+						
+						</div>
+						
+
+						
+
+						<!-- end Typography -->
+						
+					</div>		
+				</div>
+				<!-- end main content -->
+			
+				<!-- aside right on high res -->
+				<aside class="right">
+					
+					<!-- aside indented headers -->
+					<div class="indented">
+						<h1>aside h1. Heading 1</h1>	
+						<h2>aside h2. Heading 2</h2>	
+						<h3>aside h3. Heading 3</h3>	
+						<h4>aside h4. Heading 4</h4>	
+						<h5>aside h5. Heading 5</h5>	
+						<h6>aside h6. Heading 6</h6>
+					</div>	
+					<div class="divider"></div>	
+					<!-- end indented headers -->
+					
+					<!-- aside default headers -->
+					<h1>aside h1. Heading 1</h1>	
+					<h2>aside h2. Heading 2</h2>	
+					<h3>aside h3. Heading 3</h3>	
+					<h4>aside h4. Heading 4</h4>	
+					<h5>aside h5. Heading 5</h5>	
+					<h6>aside h6. Heading 6</h6>
+					<div class="divider"></div>
+					<!-- end default headers -->
+					
+					<!-- aside blockquote -->					
+					<blockquote>
+						<p>
+							“I’m not in this world to live up to your expectations and you’re not in this world to live up to mine.” 
+						</p>
+						<small><cite title="Bruce Lee">Bruce Lee</cite></small>
+					</blockquote>
+					<div class="divider"></div>
+					<!-- end blockquote -->		
+
+				</aside>
+				
+				<!-- end aside right -->
+			</div>
+			
+	    </div><!--/.fluid-container-->
+		<div class="push"></div>
+	</div>
+

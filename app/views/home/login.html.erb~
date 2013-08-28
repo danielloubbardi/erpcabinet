@@ -1,0 +1,37 @@
+	
+			<div id="login-logo">
+				
+			</div>
+			<div class="jarviswidget login">
+				<header>
+					<h2>LOGIN</h2>
+				</header>
+				
+					<div class="widget alert alert-info adjusted">
+						<i class="cus-exclamation"></i>
+						<strong>saisissez votre e-mail et votre mot de passe.</strong>
+					</div>
+					<!-- content goes here -->
+					<div id="main-content">
+						
+						<form class="form-signin" id="target" action="index.html" />
+							<div class="control-group">
+								<input type="text" class="input-block-level" autofocus="autofocus" placeholder="Username" value="Admin" />
+							</div>
+							<div class="control-group">
+								<input type="password" class="input-block-level" placeholder="Password" value="admin" />
+							</div>
+							<div class="control-group no-border">
+								<div style="text-align: right;">
+									<input class="btn btn-primary" type="submit" value="Sign in" id="login-btn" />
+								</div>
+							</div>
+						</form>
+						
+					</div>
+					<!-- end content goes here -->
+						
+			</div>
+		
+	</div>
+
