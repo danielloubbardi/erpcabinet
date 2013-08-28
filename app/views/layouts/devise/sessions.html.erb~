@@ -27,7 +27,7 @@
 			</div>
 			<div class="jarviswidget login">
 				<header>
-					<h2>{JARVIS} - Credentials</h2>
+					<h2>LOGIN</h2>
 				</header>
 				
 					<div class="widget alert alert-info adjusted">
