@@ -10,30 +10,6 @@
  *
  
 *= require_self
-* j'ai supprimé le require_tree pour ne pas charger tous les css du dossier sans respecter l'ordre ci dessous
-
-* CSS pour le theme JARVIS ADMIN (L'ordre est respecté)
-*= require datepicker
-*= require fullcalendar
-*= require TableTools
-*= require bootstrap-wysihtml5
-*= require wysiwyg-color
-*= require toastr.custom
-*= require toastr-responsive
-*= require jquery.jgrowl
-*= require bootstrap.min.css
-*= require bootstrap-responsive.min
-*= require font-awesome.min
-*= require cus-icons
-*= require jarvis-widgets
-*= require DT_bootstrap
-*= require responsive-tables
-*= require uniform.default
-*= require select2
-*= require theme
-*= require theme-responsive
-*= require default
-*= require full-width
-
+*= require_tree
 
 */ 
