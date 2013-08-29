@@ -292,7 +292,7 @@
 
 	}
 	.jarviswidget-loader{
-		background-image : url("../img/loaders/type3/light/16.gif");
+		background-image : url("../loaders/type3/light/16.gif");
 	}
 	.jarviswidget > div{
 		background-color : #fff !important;
