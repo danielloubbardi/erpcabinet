@@ -288,11 +288,11 @@
 	
 	}	
 	.jarviswidget-ctrls .button-icon:hover{
-background: #e5e5e5; /* Old browsers */
+		background: #e5e5e5; /* Old browsers */
 
 	}
 	.jarviswidget-loader{
-		background-image : url("../img/loaders/type3/light/16.gif");
+		background-image : url("../loaders/type3/light/16.gif");
 	}
 	.jarviswidget > div{
 		background-color : #fff !important;
@@ -308,5 +308,6 @@ background: #e5e5e5; /* Old browsers */
 		background-color : #FFC;
 		border           : 1px dotted #666;
 	}
+
 
 

@@ -288,7 +288,7 @@
 	
 	}	
 	.jarviswidget-ctrls .button-icon:hover{
-background: #e5e5e5; /* Old browsers */
+		background: #e5e5e5; /* Old browsers */
 
 	}
 	.jarviswidget-loader{
@@ -308,5 +308,6 @@ background: #e5e5e5; /* Old browsers */
 		background-color : #FFC;
 		border           : 1px dotted #666;
 	}
+
 
 
