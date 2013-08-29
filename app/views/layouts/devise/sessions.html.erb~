@@ -12,7 +12,7 @@
 	<%= stylesheet_link_tag "application",media: "all", "data-turbolinks-track" => true %>
     
 	<!-- For everything else -->
-	<link rel="shortcut icon" href="images/favicons/g3897-COLOR.ico" />
+	<link rel="shortcut icon" href="/assets/favicons/g3897-COLOR.ico" />
 
  </head>
 
@@ -40,10 +40,10 @@
 						
 						<form class="form-signin" id="target" action="index.html" />
 							<div class="control-group">
-								<input type="text" class="input-block-level" autofocus="autofocus" placeholder="Username" value="Admin" />
+								<input type="text" class="input-block-level" autofocus="autofocus" placeholder="Username" />
 							</div>
 							<div class="control-group">
-								<input type="password" class="input-block-level" placeholder="Password" value="admin" />
+								<input type="password" class="input-block-level" placeholder="Password" />
 							</div>
 							<div class="control-group no-border">
 								<div style="text-align: right;">
