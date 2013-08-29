@@ -133,4 +133,30 @@
 		display             : none;
 	}
 
+	/* ---------------------------------------------------------------------- */
+	/*	Content
+	/* ---------------------------------------------------------------------- */
+
+	.jarviswidget > div{
+		float                 : left;
+		width                 : 100%;
+		min-height            : 20px;
+		position              : relative;
+		font-size             : 13px;
+		-moz-border-radius    : 0px 0px 3px 3px;
+		-khtml-border-radius  : 0px 0px 3px 3px;
+		-webkit-border-radius : 0px 0px 3px 3px;
+		border-radius         : 0px 0px 3px 3px;
+		margin                : 0;
+		border-width 		  : 1px;
+		border-style          : solid;
+		border-top      	  : none;
+		border-right-color    : #C8C8C8 !important;
+		border-bottom-color   : #C8C8C8 !important;
+		border-left-color     : #C8C8C8 !important;
+	} 
+	.inner-spacer{
+		margin : 0;
+	}
+
 

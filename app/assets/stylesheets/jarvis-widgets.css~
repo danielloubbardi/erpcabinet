@@ -60,4 +60,77 @@
 	.jarviswidget-ajax-placeholder {
 		padding:10px;
 	}
+	
+	/* ---------------------------------------------------------------------- */
+	/*	Header
+	/* ---------------------------------------------------------------------- */
+
+	.jarviswidget > header{
+		height      : 34px; /* make sure ".jarviswidget-loader" is also the same height or it will flicker during collapse */
+		padding     : 0 0 0 10px;	
+		line-height : 40px;
+	}
+	.ui-sortable .jarviswidget-sortable > header{
+		cursor : move;
+		box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.5);
+		-moz-border-radius    : 3px 3px 0px 0px;
+		-khtml-border-radius  : 3px 3px 0px 0px;
+		-webkit-border-radius : 3px 3px 0px 0px;
+		border-radius         : 3px 3px 0px 0px;
+		/*background-image 	  : url('../img/overlay-pattern.png');*/
+	} 
+	.ui-sortable .jarviswidget-sortable.jarviswidget-collapsed > header {
+		-moz-border-radius    : 3px;
+		-khtml-border-radius  : 3px;
+		-webkit-border-radius : 3px;
+		border-radius         : 3px;
+	}
+	
+	.jarviswidget > header h2, .fc-header-title h2 {
+		height      : 100%;
+		width       : auto;
+		float       : left;
+		font-size   : 13px;
+		position    : relative;
+		margin      : 0;
+		line-height	: 34px;
+	}
+	.jarviswidget > header .jarviswidget-icon{
+		width    : 16px;
+		height   : 16px;
+		float    : left;
+		margin   : 12px 10px 0 0;
+		display  : block;
+		zoom     : 1;
+		z-index  : 4000
+	}  
+	.jarviswidget-ctrls{
+		width   : auto;
+		float   : right;
+		padding : 8px 2px 0 0;
+		margin  : 0;
+	}
+	.jarviswidget-ctrls .button-icon{
+		width                 : 18px;
+		height                : 18px;
+		float                 : left;
+		-moz-border-radius    : 3px;
+		-khtml-border-radius  : 3px;
+		-webkit-border-radius : 3px;
+		border-radius         : 3px;
+		position              : relative;
+		margin                : 0 5px 5px 0;
+		font-size             : 13px;
+		font-family           : Arial, Helvetica, sans-serif;
+	}	
+	.jarviswidget-loader{
+		width               : 30px;
+		height              : 34px;
+		margin              : 0;
+		float               : right;
+		background-repeat   : no-repeat;
+		background-position : center center;
+		display             : none;
+	}
+
 
