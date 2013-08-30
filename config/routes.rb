@@ -1,5 +1,7 @@
 Erpcabinet::Application.routes.draw do
-  	get "static_pages/home"
+  root 'home#index'  
+
+  match '/home', to: 'static_pages#home', via: 'get'
   match '/help', to: 'static_pages#help', via: 'get'  
   match '/about', to: 'static_pages#about', via: 'get'
   match '/login', to: 'static_pages#login', via: 'get'
@@ -28,7 +30,7 @@ Erpcabinet::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-   root 'home#index'
+  # root 'home#index' 
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
