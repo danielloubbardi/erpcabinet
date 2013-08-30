@@ -54,7 +54,8 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: erpcabinet_production
+  database: erpcabinet_development
+  #database: erpcabinet_production
   pool: 5
   username: erpcabinet
   password: minimo1234

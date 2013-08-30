@@ -12,7 +12,7 @@
 	<%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
     
 	<!-- For everything else -->
-	<link rel="shortcut icon" href="/assets/favicons/g3897-COLOR.ico" />
+	<link rel="shortcut icon" href="/assets/favicons/graph-site-MULTI.png" />
 
  </head>
 
@@ -23,7 +23,7 @@
 	<div class="height-wrapper">
 				
 			<div id="login-logo">
-				
+		<%= image_tag "/assets/favicons/graph-site-MULTI.png" %>	
 			</div>
 			<div class="jarviswidget login">
 				<header>

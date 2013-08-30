@@ -24,10 +24,11 @@ Erpcabinet::Application.configure do
 
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
-  config.assets.css_compressor = :sass
+  #config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   config.assets.compile = false
+  config.assets.initialize_on_precompile = true
 
   # Generate digests for assets URLs.
   config.assets.digest = true

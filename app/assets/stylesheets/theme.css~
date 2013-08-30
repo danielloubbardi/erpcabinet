@@ -87,7 +87,7 @@
 		color:#5F5F5F;
 	}
 	body {
-		background: url('../backgrounds/mesh.png') #333;
+		background: url('/assets/backgrounds/mesh.png') #333;
 	}
 	
 	h1, h2, h3, h4, h5, h6, .my-profile span, .number-stats {
@@ -250,7 +250,7 @@
 	#header-toolbar {
 		height: 46px;
 		position:relative;
-		background: url('../transparant-30.png');
+		background: url('/assets/transparant-30.png');
 		border-bottom: 1px solid #585858;
 		border-top: 5px solid #000;
 		padding-right: 16px;
@@ -389,7 +389,7 @@
 	}
 	.toolbar ul.mailbox > li > a:active, .toolbar ul.mailbox > li > a:focus {
 
-		background: url('../transparant-10.png') repeat top left ; 
+		background: url('/assets/transparant-10.png') repeat top left ; 
 	}
 	.toolbar ul.mailbox > li > a.read {
 		background-color:#f3f3f3;
@@ -417,7 +417,7 @@
 		right: 30px;
 		width: auto;
 		text-indent: 0px;
-		background: url('../transparant-40.png');
+		background: url('/assets/transparant-40.png');
 		background: rgba(128, 128, 128, 0.7);
 		-webkit-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5);
 		-moz-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5);
@@ -486,7 +486,7 @@
 	span.mail-sticker {
 		position: absolute;
 		z-index:99;
-		background: url('../mini-counter.png') no-repeat top left;
+		background: url('/assets/mini-counter.png') no-repeat top left;
 		width: 18px;
 		height: 18px;
 		right: -3px;
@@ -526,10 +526,10 @@
 	}
 	
 	#start ul li:hover {
-		background: url('../transparant-5.png') repeat top left;
+		background: url('/assets/transparant-5.png') repeat top left;
 	}
 	#start ul li:active {
-		background: url('../transparant-10.png') repeat top left;
+		background: url('/assets/transparant-10.png') repeat top left;
 	}
 	#start ul li a {
 		position:relative;
@@ -560,7 +560,7 @@
 		white-space: nowrap;
 		text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 		
-		background: url(../csshack/red-gradient.png) repeat-x #d42622 ;
+		background: url(/assets/csshack/red-gradient.png) repeat-x #d42622 ;
 		-webkit-background-size: 100% 100%;
 		-moz-background-size: 100% 100%;
 		-o-background-size: 100% 100%;
@@ -666,7 +666,7 @@
 		border-radius:10px 0px 0px 10px;
 		-webkit-border-radius: 10px 0px 0px 10px;
 		-moz-border-radius: 10px 0px 0px 10px;
-		background:url('../backgrounds/bgnoise.png')
+		background:url('/assets/backgrounds/bgnoise.png')
 	}
 	
 	/* ---------------------------------------------------------------------- */
@@ -826,7 +826,7 @@
 		border-radius: 4px 4px 4px 4px;
 		overflow: hidden;
 		color: white;
-		background: #7EA437 url(../backgrounds/menu_bg.png) repeat-x;
+		background: #7EA437 url(/assets/backgrounds/menu_bg.png) repeat-x;
 		-webkit-background-size: 100% 100%;
 		-moz-background-size: 100% 100%;
 		-o-background-size: 100% 100%;
@@ -876,7 +876,7 @@
 		float: right;
 		margin-top: 7px;
 		margin-right: 7px;
-		background: url('../transparant-10.png');
+		background: url('/assets/transparant-10.png');
 		background: rgba(128, 128, 128, 0.2);
 		-webkit-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5);
 		-moz-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5);
@@ -925,11 +925,11 @@
 	}
 	
 	aside ul.menu > li.open > a > label, aside ul.menu > li.open > a > span, aside ul.menu > li.current > a > span {
-		background: url('../transparant-30.png');
+		background: url('/assets/transparant-30.png');
 	}
 	
 	aside ul.menu > li.current > a {
-		background: url('../backgrounds/current.png') repeat;
+		background: url('/assets/backgrounds/current.png') repeat;
 		/*background-position:0 -252px;*/
 	}
 	
@@ -944,7 +944,7 @@
 	
 	aside ul.menu > li > ul {
 		display: block;
-		background: url('../transparant-20.png');
+		background: url('/assets/transparant-20.png');
 
 	}
 	
@@ -966,7 +966,7 @@
 	/* second level selected */
 	
 	aside ul.menu a.expanded i#selected-item {
-		background:url('../pointer-menu.png') no-repeat center center transparent;
+		background:url('/assets/pointer-menu.png') no-repeat center center transparent;
 		display:block;
 		width:10px;
 		height:19px;
@@ -978,14 +978,14 @@
 	
 	/* menu item active/open state */
 	aside ul.menu > li > ul > li a.expanded {
-		background: url('../transparant-10.png');
+		background: url('/assets/transparant-10.png');
 	}	
 	/* divider */
 	
 	aside > .divider {
 		height:11px;
 		width:100%;
-		background: url('../divider/divider_11x714.png') no-repeat center 0;
+		background: url('/assets/divider/divider_11x714.png') no-repeat center 0;
 		position:relative;
 		margin:20px 0;
 	}
@@ -1003,7 +1003,7 @@
 	
 	.mini-inbox div.alert.inbox {
 		border: 1px solid #494949;
-		background: url('../transparant-20.png');
+		background: url('/assets/transparant-20.png');
 		color:#A8A8A8;
 		font-size: 11px;
 		line-height: 17px;
@@ -1023,7 +1023,7 @@
 	}
 	
 	.mini-inbox div.alert.inbox:hover {
-		background: url('../transparant-30.png');
+		background: url('/assets/transparant-30.png');
 		
 	}
 	
@@ -1676,12 +1676,12 @@
 		width: 23px;
 		height: 23px;
 		cursor: pointer;
-		background:url('../uislider/slider_handles_5.png') no-repeat 0px -23px transparent;
+		background:url('/assets/uislider/slider_handles_5.png') no-repeat 0px -23px transparent;
 		display:block;
 	}
 	
 	.ui-slider .ui-slider-handle:hover {
-		background:url('../uislider/slider_handles_5.png') no-repeat 0px 0px transparent;
+		background:url('/assets/uislider/slider_handles_5.png') no-repeat 0px 0px transparent;
 	}
 	
 	.ui-slider .ui-slider-range {
@@ -1863,7 +1863,7 @@
 
 	.indented {
 		padding: 10px !important;
-		background: url('../transparant-20.png');
+		background: url('/assets/transparant-20.png');
 		box-shadow: 0 1px 1px #606060, 0 1px 1px #2a2a2a inset;
 		-webkit-box-shadow: 0 1px 1px #606060, 0 1px 1px #2a2a2a inset;
 		-moz-box-shadow: 0 1px 1px #606060, 0 1px 1px #2a2a2a inset;
@@ -1906,7 +1906,7 @@
 		position: relative;
 		overflow: hidden;
 		height: 22px;
-		background: url('../transparant-20.png');
+		background: url('/assets/transparant-20.png');
 		box-shadow: none;
 		-webkit-box-shadow: none;
 		-moz-box-shadow: none;
@@ -1944,57 +1944,57 @@
 		max-width: 98%;
 	}
 	.progress-danger .bar, .progress .bar-danger, .label-important.special, .badge-important.special, .important-slider > div.ui-slider-range {
-		background: url(../csshack/red-gradient.png) repeat-x #d42622;
+		background: url(/assets/csshack/red-gradient.png) repeat-x #d42622;
 		-webkit-background-size: 100% 100%;
 		-moz-background-size: 100% 100%;
 		-o-background-size: 100% 100%;
 		background-size: 100% 100%;
-		background: url('../overlay-pattern.png'), -moz-linear-gradient(top, #fd8383, #c30909 50%, #a70606 50%, #d42622);
-		background: url('../overlay-pattern.png'), -webkit-linear-gradient(top, #fd8383, #c30909 50%, #a70606 50%, #d42622);
-		background: url('../overlay-pattern.png'), -webkit-gradient(linear, left top, left bottom, from(#fd8383), to(#d42622), color-stop(0.5, #c30909), color-stop(0.5, #a70606));
-		background: url('../overlay-pattern.png'), -ms-linear-gradient(top, #fd8383, #c30909 50%, #a70606 50%, #d42622);
-		background: url('../overlay-pattern.png'), -o-linear-gradient(top, #fd8383, #c30909 50%, #a70606 50%, #d42622);
-		background: url('../overlay-pattern.png'), linear-gradient(top, #fd8383, #c30909 50%, #a70606 50%, #d42622);
+		background: url('/assets/overlay-pattern.png'), -moz-linear-gradient(top, #fd8383, #c30909 50%, #a70606 50%, #d42622);
+		background: url('/assets/overlay-pattern.png'), -webkit-linear-gradient(top, #fd8383, #c30909 50%, #a70606 50%, #d42622);
+		background: url('/assets/overlay-pattern.png'), -webkit-gradient(linear, left top, left bottom, from(#fd8383), to(#d42622), color-stop(0.5, #c30909), color-stop(0.5, #a70606));
+		background: url('/assets/overlay-pattern.png'), -ms-linear-gradient(top, #fd8383, #c30909 50%, #a70606 50%, #d42622);
+		background: url('/assets/overlay-pattern.png'), -o-linear-gradient(top, #fd8383, #c30909 50%, #a70606 50%, #d42622);
+		background: url('/assets/overlay-pattern.png'), linear-gradient(top, #fd8383, #c30909 50%, #a70606 50%, #d42622);
 
 	}
 	.progress-success .bar, .progress .bar-success, .label-success.special, .badge-success.special, .success-slider > div.ui-slider-range {
-		background: url(../csshack/green-gradient.png) repeat-x #5eb80a;
+		background: url(/assets/csshack/green-gradient.png) repeat-x #5eb80a;
 		-webkit-background-size: 100% 100%;
 		-moz-background-size: 100% 100%;
 		-o-background-size: 100% 100%;
 		background-size: 100% 100%;
-		background: url('../overlay-pattern.png'), -moz-linear-gradient(top, #b1dc64, #58b104 50%, #499400 50%, #5eb80a);
-		background: url('../overlay-pattern.png'), -webkit-linear-gradient(top, #b1dc64, #58b104 50%, #499400 50%, #5eb80a);
-		background: url('../overlay-pattern.png'), -webkit-gradient(linear, left top, left bottom, from(#b1dc64), to(#5eb80a), color-stop(0.5, #58b104), color-stop(0.5, #499400));
-		background: url('../overlay-pattern.png'), -ms-linear-gradient(top, #b1dc64, #58b104 50%, #499400 50%, #5eb80a);
-		background: url('../overlay-pattern.png'), -o-linear-gradient(top, #b1dc64, #58b104 50%, #499400 50%, #5eb80a);
-		background: url('../overlay-pattern.png'), linear-gradient(top, #b1dc64, #58b104 50%, #499400 50%, #5eb80a);
+		background: url('/assets/overlay-pattern.png'), -moz-linear-gradient(top, #b1dc64, #58b104 50%, #499400 50%, #5eb80a);
+		background: url('/assets/overlay-pattern.png'), -webkit-linear-gradient(top, #b1dc64, #58b104 50%, #499400 50%, #5eb80a);
+		background: url('/assets/overlay-pattern.png'), -webkit-gradient(linear, left top, left bottom, from(#b1dc64), to(#5eb80a), color-stop(0.5, #58b104), color-stop(0.5, #499400));
+		background: url('/assets/overlay-pattern.png'), -ms-linear-gradient(top, #b1dc64, #58b104 50%, #499400 50%, #5eb80a);
+		background: url('/assets/overlay-pattern.png'), -o-linear-gradient(top, #b1dc64, #58b104 50%, #499400 50%, #5eb80a);
+		background: url('/assets/overlay-pattern.png'), linear-gradient(top, #b1dc64, #58b104 50%, #499400 50%, #5eb80a);
 	}
 	.progress-info .bar, .progress .bar-info, .label-info.special, .badge-info.special, .info-slider > div.ui-slider-range {
-		background: url(../csshack/blue-gradient.png) repeat-x #0a5db8;
+		background: url(/assets/csshack/blue-gradient.png) repeat-x #0a5db8;
 		-webkit-background-size: 100% 100%;
 		-moz-background-size: 100% 100%;
 		-o-background-size: 100% 100%;
 		background-size: 100% 100%;
-		background: url('../overlay-pattern.png'), -moz-linear-gradient(top, #65b2dd, #045ab2 50%, #004995 50%, #0a5db8);
-		background: url('../overlay-pattern.png'), -webkit-linear-gradient(top, #65b2dd, #045ab2 50%, #004995 50%, #0a5db8);
-		background: url('../overlay-pattern.png'), -webkit-gradient(linear, left top, left bottom, from(#65b2dd), to(#0a5db8), color-stop(0.5, #045ab2), color-stop(0.5, #004995));
-		background: url('../overlay-pattern.png'), -ms-linear-gradient(top, #65b2dd, #045ab2 50%, #004995 50%, #0a5db8);
-		background: url('../overlay-pattern.png'), -o-linear-gradient(top, #65b2dd, #045ab2 50%, #004995 50%, #0a5db8);
-		background: url('../overlay-pattern.png'), linear-gradient(top, #65b2dd, #045ab2 50%, #004995 50%, #0a5db8);
+		background: url('/assets/overlay-pattern.png'), -moz-linear-gradient(top, #65b2dd, #045ab2 50%, #004995 50%, #0a5db8);
+		background: url('/assets/overlay-pattern.png'), -webkit-linear-gradient(top, #65b2dd, #045ab2 50%, #004995 50%, #0a5db8);
+		background: url('/assets/overlay-pattern.png'), -webkit-gradient(linear, left top, left bottom, from(#65b2dd), to(#0a5db8), color-stop(0.5, #045ab2), color-stop(0.5, #004995));
+		background: url('/assets/overlay-pattern.png'), -ms-linear-gradient(top, #65b2dd, #045ab2 50%, #004995 50%, #0a5db8);
+		background: url('/assets/overlay-pattern.png'), -o-linear-gradient(top, #65b2dd, #045ab2 50%, #004995 50%, #0a5db8);
+		background: url('/assets/overlay-pattern.png'), linear-gradient(top, #65b2dd, #045ab2 50%, #004995 50%, #0a5db8);
 	}
 	.progress-warning .bar, .progress .bar-warning, .label-warning.special, .badge-warning.special, .warning-slider > div.ui-slider-range {
-		background: url(../csshack/orange-gradient.png) repeat-x #0a5db8;
+		background: url(/assets/csshack/orange-gradient.png) repeat-x #0a5db8;
 		-webkit-background-size: 100% 100%;
 		-moz-background-size: 100% 100%;
 		-o-background-size: 100% 100%;
 		background-size: 100% 100%;
-		background: url('../overlay-pattern.png'), -moz-linear-gradient(top, #ffd844, #ff9f01 50%, #da8d00 50%, #e59400 80%, #d38800);
-		background: url('../overlay-pattern.png'), -webkit-linear-gradient(top, #ffd844, #ff9f01 50%, #da8d00 50%, #e59400 80%, #d38800);
-		background: url('../overlay-pattern.png'), -webkit-gradient(linear, left top, left bottom, from(#ffd844), to(#d38800), color-stop(0.5, #ff9f01), color-stop(0.5, #da8d00), color-stop(0.8, #e59400));
-		background: url('../overlay-pattern.png'), -ms-linear-gradient(top, #ffd844, #ff9f01 50%, #da8d00 50%, #e59400 80%, #d38800);
-		background: url('../overlay-pattern.png'), -o-linear-gradient(top, #ffd844, #ff9f01 50%, #da8d00 50%, #e59400 80%, #d38800);
-		background: url('../overlay-pattern.png'), linear-gradient(top, #ffd844, #ff9f01 50%, #da8d00 50%, #e59400 80%, #d38800);
+		background: url('/assets/overlay-pattern.png'), -moz-linear-gradient(top, #ffd844, #ff9f01 50%, #da8d00 50%, #e59400 80%, #d38800);
+		background: url('/assets/overlay-pattern.png'), -webkit-linear-gradient(top, #ffd844, #ff9f01 50%, #da8d00 50%, #e59400 80%, #d38800);
+		background: url('/assets/overlay-pattern.png'), -webkit-gradient(linear, left top, left bottom, from(#ffd844), to(#d38800), color-stop(0.5, #ff9f01), color-stop(0.5, #da8d00), color-stop(0.8, #e59400));
+		background: url('/assets/overlay-pattern.png'), -ms-linear-gradient(top, #ffd844, #ff9f01 50%, #da8d00 50%, #e59400 80%, #d38800);
+		background: url('/assets/overlay-pattern.png'), -o-linear-gradient(top, #ffd844, #ff9f01 50%, #da8d00 50%, #e59400 80%, #d38800);
+		background: url('/assets/overlay-pattern.png'), linear-gradient(top, #ffd844, #ff9f01 50%, #da8d00 50%, #e59400 80%, #d38800);
 	}
 	
 	/* active bars */
@@ -2105,7 +2105,7 @@
 	
 	aside.right #datepicker {
 		color:#C9C9C9;
-		background: url('../transparant-20.png');
+		background: url('/assets/transparant-20.png');
 		box-shadow: 0 1px 1px #606060, 0 1px 1px #2a2a2a inset;
 		-webkit-box-shadow: 0 1px 1px #606060, 0 1px 1px #2a2a2a inset;
 		-moz-box-shadow: 0 1px 1px #606060, 0 1px 1px #2a2a2a inset;
@@ -2534,7 +2534,7 @@
 	.online, .offline, .away, .busy {
 		width:7px;
 		height:7px;
-		background:url('../chat/contact.png') 0px 0px no-repeat;
+		background:url('/assets/chat/contact.png') 0px 0px no-repeat;
 		display:block;
 	}
 	.away {
@@ -2583,10 +2583,10 @@
 		color:inherit;
 	}
 	ul.users-online li a:hover {
-		background:url('../transparant-5.png') repeat;
+		background:url('/assets/transparant-5.png') repeat;
 	}
 	ul.users-online li a:active {
-		background:url('../transparant-10.png') repeat;
+		background:url('/assets/transparant-10.png') repeat;
 	}
 	
 	ul.users-online li a strong {
@@ -2672,7 +2672,7 @@
 		line-height: normal;
 		padding-left: 25px;
 		width:100%;
-		background: url('../transparant-20.png');
+		background: url('/assets/transparant-20.png');
 		border:1px solid #4E4E4E;
 	}
 	.main-search label {
@@ -2700,7 +2700,7 @@
 	}
 	
 	table td.highlighted {
-		background: url('../transparant-40.png') !important;
+		background: url('/assets/transparant-40.png') !important;
 		color:#fff;
 	}
 	
@@ -2743,7 +2743,7 @@
 	/* ---------------------------------------------------------------------- */
 	
 	#login-logo {
-		background:url('../assets/favicons/apple-touch-icon-retina.png') top left transparent no-repeat;
+		background:url('/assets/favicons/apple-touch-icon-retina.png') top left transparent no-repeat;
 		display:block;
 		width:114px;
 		height:82px;
@@ -3023,7 +3023,7 @@
 	.colorpicker-saturation {
 		width: 100px;
 		height: 100px;
-		background-image: url('../colorpicker/saturation.png');
+		background-image: url('/assets/colorpicker/saturation.png');
 		cursor: crosshair;
 		float: left;
 	}
@@ -3069,10 +3069,10 @@
 		margin-top: -1px;
 	}
 	.colorpicker-hue {
-		background-image: url('../colorpicker/hue.png');
+		background-image: url('/assets/colorpicker/hue.png');
 	}
 	.colorpicker-alpha {
-		background-image: url('../colorpicker/alpha.png');
+		background-image: url('/assets/colorpicker/alpha.png');
 		display: none;
 	}
 	.colorpicker {
@@ -3127,7 +3127,7 @@
 		height: 10px;
 		margin-top: 5px;
 		clear: both;
-		background-image: url('../colorpicker/alpha.png');
+		background-image: url('/assets/colorpicker/alpha.png');
 		background-position: 0 100%;
 	}
 	.colorpicker-color div {
@@ -3354,7 +3354,7 @@
 	.inbox-body {
 		width:auto;
 		position:relative;
-		background-image: url('../backgrounds/4.jpg');
+		background-image: url('/assets/backgrounds/4.jpg');
 		margin-right:250px; /* change this value to left or right to shift inbox menu */
 		-webkit-box-shadow: inset 0px 0px 3px 2px rgba(0, 0, 0, .3);
         -moz-box-shadow: inset 0px 0px 3px 2px rgba(0, 0, 0, .3);
@@ -3491,7 +3491,7 @@
 	}
 	div.slashc-sliding-menu h1
 	{
-		background:url('../backgrounds/low_contrast_linen.png');
+		background:url('/assets/backgrounds/low_contrast_linen.png');
 		color: #fff;
 		font-weight: bold;
 		padding-left:40px;
@@ -3528,7 +3528,7 @@
 	}div.slashc-sliding-menu li ul li a:hover { 
 		background:#ffffcc;
 	}div.slashc-sliding-menu li ul li a:active {
-		background: url('../transparant-5.png');
+		background: url('/assets/transparant-5.png');
 		background: rgba(128, 128, 128, 0.1);
 	}
 	
@@ -3549,7 +3549,7 @@
 	div.slashc-sliding-menu p
 	{
 		background-color: #222;
-		background-image: url(../footer_bg.jpg);
+		background-image: url(/assets/footer_bg.jpg);
 		color: #555;
 		font-size: 12px;
 	}
@@ -3587,7 +3587,7 @@
 	div.slashc-sliding-menu a.slashc-sliding-menu-back
 	{
 		width: 52px;
-		background: url(../back_icn.gif) no-repeat 15px 19px;
+		background: url(/assets/back_icn.gif) no-repeat 15px 19px;
 	}
 	div.slashc-sliding-menu a.slashc-sliding-menu-back:hover
 	{
@@ -3706,7 +3706,7 @@
 	  top: 0;
 	  left: 0;
 	  width: 0;
-	  background: transparent url('../ibutton/ibutton-slider-default.png') no-repeat scroll 0 -54px;
+	  background: transparent url('/assets/ibutton/ibutton-slider-default.png') no-repeat scroll 0 -54px;
 	  z-index: 3;
 	  padding-left: 3px;
 		/* set default width based on ON/OFF labels */
@@ -3717,14 +3717,14 @@
 	  height: 100%;
 	  width: 100%;
 	  padding-right: 3px;
-	  background: transparent url('../ibutton/ibutton-slider-default.png') no-repeat scroll 100% -54px;
+	  background: transparent url('/assets/ibutton/ibutton-slider-default.png') no-repeat scroll 100% -54px;
 	  z-index: 3; 
 	}
 	
 	.ibutton-handle-middle {
 	  height: 100%;
 	  width: 100%;
-	  background: transparent url('../ibutton/ibutton-slider-default.png') no-repeat scroll 50% -54px;
+	  background: transparent url('/assets/ibutton/ibutton-slider-default.png') no-repeat scroll 50% -54px;
 	  z-index: 3; 
 	}
 	
@@ -3743,7 +3743,7 @@
 	  top: 0;
 	  padding-top: 5px;
 	  overflow: hidden; 
-	  background: transparent url('../ibutton/ibutton-slider-default.png') no-repeat scroll 0 0;
+	  background: transparent url('/assets/ibutton/ibutton-slider-default.png') no-repeat scroll 0 0;
 	}
 	
 	div.ibutton-label-on {
@@ -3799,7 +3799,7 @@
 		position: absolute; 
 		top: 4px;
 		z-index: 2; 
-		background: transparent url('../ibutton/ibutton-slider-default.png') no-repeat scroll 0 -4px; 
+		background: transparent url('/assets/ibutton/ibutton-slider-default.png') no-repeat scroll 0 -4px; 
 		width: 3px;
 		height: 20px;
 	}
@@ -3976,7 +3976,7 @@
 	
 	ul.custom-list li {
 		padding-left:22px;
-		background:url('../bullet.png') no-repeat left center;
+		background:url('/assets/bullet.png') no-repeat left center;
 	}
 
 	/* ---------------------------------------------------------------------- */
@@ -3985,7 +3985,7 @@
 	
 	#login {
 		width: 278px;
-		background: #7EA437 url(../images/backgrounds/menu_bg.png) repeat-x;
+		background: #7EA437 url(/assets/images/backgrounds/menu_bg.png) repeat-x;
 		-webkit-background-size: 100% 100%;
 		-moz-background-size: 100% 100%;
 		-o-background-size: 100% 100%;
