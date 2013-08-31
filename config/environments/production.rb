@@ -61,7 +61,7 @@ Erpcabinet::Application.configure do
   # Precompile additional assets.
   # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
   # config.assets.precompile += %w( search.js )
-    config.assets.precompile += %w( default.css full-width.css )
+    config.assets.precompile += %w( default.css full-width.css application-ismobile.js application-notmobile.js)
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
