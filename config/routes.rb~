@@ -1,10 +1,16 @@
 Erpcabinet::Application.routes.draw do
-  root 'home#index'  
+  root 'clients#list'  
 
   match '/home', to: 'static_pages#home', via: 'get'
   match '/help', to: 'static_pages#help', via: 'get'  
   match '/about', to: 'static_pages#about', via: 'get'
   match '/login', to: 'static_pages#login', via: 'get'
+
+  match 'clients/list', to: 'clients#list', via: 'get'
+
+
+
+
 
   get "index"=> 'home#index'
   get "adv_charts" => "home#adv_charts"

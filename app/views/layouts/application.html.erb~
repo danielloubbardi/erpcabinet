@@ -337,7 +337,8 @@
 	
 <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
 
-	
+	<!-- REQUIRED: Datatable components -->
+    <script src="assets/js/include/jquery.accordion.min.js"></script>
 
 	<!-- REQUIRED: Toastr & Jgrowl notifications  -->
     <script src="assets/js/include/toastr.min.js"></script>
