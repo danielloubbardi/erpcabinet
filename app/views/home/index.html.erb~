@@ -18,10 +18,16 @@
 	    
 	<!-- // THEME CSS changed by javascript: the CSS link below will override the rules above // -->
 	<!-- For more information, please see the documentation for "THEMES" -->
+	
+
+	<link rel="stylesheet" id="switch-theme-js" href="css/themes/default.css?v=1" />   
+   	<!-- To switch to full width -->
+	<link rel="stylesheet" id="switch-width" href=<%= stylesheet_path 'full-width' %> />
+
+
 	<%= stylesheet_link_tag "default", media: "all", "data-turbolinks-track" => true, :id => "switch-theme-js" %>    
    	<!-- To switch to full width -->
 	<%= stylesheet_link_tag "full-width", media: "all", "data-turbolinks-track" => true, :id => "switch-width" %> 	   
-	<link rel="stylesheet" id="switch-width" href="/assets/full-width.css?v=1" />
     
 	<!-- Webfonts -->
 	<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:300,400,700' type='text/css' />
