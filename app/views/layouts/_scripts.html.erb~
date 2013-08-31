@@ -1,11 +1,7 @@
 <!--================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     
-
-
 		<%= javascript_include_tag "application" %>
-
-
 
 	<script type="text/javascript">
 		var ismobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));	
