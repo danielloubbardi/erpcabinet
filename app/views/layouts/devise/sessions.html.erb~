@@ -23,7 +23,7 @@
 	<div class="height-wrapper">
 				
 			<div id="login-logo">
-		<%= image_tag "/assets/favicons/graph-site-MULTI.png" %>	
+
 			</div>
 			<div class="jarviswidget login">
 				<header>
@@ -38,20 +38,8 @@
 					<!-- content goes here -->
 					<div id="main-content">
 						
-						<form class="form-signin" id="target" action="index.html" />
-							<div class="control-group">
-								<input type="text" class="input-block-level" autofocus="autofocus" placeholder="Username" />
-							</div>
-							<div class="control-group">
-								<input type="password" class="input-block-level" placeholder="Password" />
-							</div>
-							<div class="control-group no-border">
-								<div style="text-align: right;">
-									<input class="btn btn-primary" type="submit" value="Sign in" id="login-btn" />
-								</div>
-							</div>
-						</form>
-						
+						<%=yield %>
+	
 					</div>
 					<!-- end content goes here -->
 						

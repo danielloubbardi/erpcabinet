@@ -32,26 +32,14 @@
 				
 					<div class="widget alert alert-info adjusted">
 						<i class="cus-exclamation"></i>
-						<strong>Please type in your username and password.</strong>
+						<strong>Veuillez saisir vos identifiants.</strong>
 					</div>
 
 					<!-- content goes here -->
 					<div id="main-content">
 						
-						<form class="form-signin" id="target" action="index.html" />
-							<div class="control-group">
-								<input type="text" class="input-block-level" autofocus="autofocus" placeholder="Username" />
-							</div>
-							<div class="control-group">
-								<input type="password" class="input-block-level" placeholder="Password" />
-							</div>
-							<div class="control-group no-border">
-								<div style="text-align: right;">
-									<input class="btn btn-primary" type="submit" value="Sign in" id="login-btn" />
-								</div>
-							</div>
-						</form>
-						
+						<%=yield %>
+	
 					</div>
 					<!-- end content goes here -->
 						
