@@ -135,7 +135,7 @@ div.jGrowl div.jGrowl-closer {
 /* adjustments */
 
 .notification, div.jGrowl div.jGrowl-closer {
-	background: url('../img/backgrounds/bg-jGrowl.png') repeat-x #000;
+	background: url(image_path("backgrounds/bg-jGrowl.png")) repeat-x #000;
 	-webkit-background-size: 100% 100%;
 	-moz-background-size: 100% 100%;
 	-o-background-size: 100% 100%;
@@ -219,14 +219,14 @@ div.jGrowl div.jGrowl-closer {
 	display: none /*initially hidden*/;
 	width: 51px;
 	height: 48px;
-	background: url('../img/jarvis/positive_48.png') no-repeat center center transparent;
+	background: url(image_path("jarvis/positive_48.png")) no-repeat center center transparent;
 	position: absolute;
 	left: -52px;
 	top: 4px;
 }
 
 .notification-icon-negative {
-	background: url('../img/jarvis/negative_48.png') no-repeat center center transparent;
+	background: url(image_path("jarvis/negative_48.png")) no-repeat center center transparent;
 }
 
 .notification.with-icon .notification-icon {

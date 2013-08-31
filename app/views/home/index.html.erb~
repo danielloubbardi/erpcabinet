@@ -20,40 +20,40 @@
 								<li>
 									<label>+548 </label>
 									<a href="javascript:void(0)" title="">
-										<img src="img/start-icons/add-user.png" alt="" />
+										<img src=<%=image_path("start-icons/add-user.png")%> alt="" />
 										<span>Add New User</span>
 									</a>
 								</li>
 								<li>
 									<label>246 </label>
 									<a href="javascript:void(0)" title="">
-										<img src="img/start-icons/orders.png" alt="" />
+										<img src=<%=image_path("start-icons/orders.png")%> alt="" />
 										<span>View Orders</span>
 									</a>
 								</li>
 								<li>
 									<a href="javascript:void(0)" title="">
-										<img src="img/start-icons/mass.png" alt="" />
+										<img src=<%=image_path("start-icons/mass.png")%> alt="" />
 										<span>Broadcast</span>
 									</a>
 								</li>
 								<li>
 									<label>new</label>
 									<a href="javascript:void(0)" title="">
-										<img src="img/start-icons/stats.png" alt="" />
+										<img src=<%=image_path("start-icons/stats.png")%> alt="" />
 										<span>Show Statistics</span>
 									</a>
 								</li>
 								<li>
 									<label>657</label>
 									<a href="javascript:void(0)" title="">
-										<img src="img/start-icons/pending-message.png" alt="" />
+										<img src=<%=image_path("start-icons/pending-message.png")%> alt="" />
 										<span>Comments</span>
 									</a>
 								</li>
 								<li>
 									<a href="javascript:void(0)" title="">
-										<img src="img/start-icons/upgrade.png" alt="" />
+										<img src=<%=image_path("start-icons/upgrade.png")%> alt="" />
 										<span>Service Upgrade</span>
 									</a>
 								</li>
@@ -275,7 +275,7 @@
 									              		
 									              		<!-- message-id-1 -->
 														<p id="message-id-1" class="message-box">
-															<img src="img/avatar/avatar_1.jpg" alt="" />
+															<img src=<%=image_path("avatar/avatar_1.jpg")%> alt="" />
 															<span class="message">
 																<strong>Nicolas Cage</strong> 
 																<span class="message-time">14:23pm, 4th Jan 2013</span>
@@ -286,7 +286,7 @@
 														
 														<!-- message-id-2 -->
 														<p id="message-id-2" class="message-box you">
-															<img src="img/avatar/avatar_0.jpg" alt="" />
+															<img src=<%=image_path("avatar/avatar_0.jpg")%> alt="" />
 															<span class="message">
 																<strong>Me</strong> 
 																<span class="message-time">14:25pm, 4th Jan 2013</span>
@@ -297,7 +297,7 @@
 									              		
 									              		<!-- message-id-3 -->
 														<p id="message-id-3" class="message-box">
-															<img src="img/avatar/avatar_1.jpg" alt="" />
+															<img src=<%=image_path("avatar/avatar_1.jpg")%> alt="" />
 															<span class="message">
 																<strong>Nicolas Cage</strong> 
 																<span class="message-time">14:23pm, 4th Jan 2013</span>
@@ -320,7 +320,7 @@
 									              		
 									              		<!-- message-id-1 -->
 														<p id="message-id-4" class="message-box">
-															<img src="img/avatar/avatar_2.jpg" alt="" />
+															<img src=<%=image_path("avatar/avatar_2.jpg")%> alt="" />
 															<span class="message">
 																<strong>David Simpson</strong> 
 																<span class="message-time">14:23pm, 4th Jan 2013</span>
@@ -331,7 +331,7 @@
 														
 														<!-- message-id-2 -->
 														<p id="message-id-5" class="message-box you">
-															<img src="img/avatar/avatar_0.jpg" alt="" />
+															<img src=<%=image_path("avatar/avatar_0.jpg")%> alt="" />
 															<span class="message">
 																<strong>Me</strong> 
 																<span class="message-time">14:25pm, 4th Jan 2013</span>
@@ -353,7 +353,7 @@
 									            	
 									            	<textarea name="enter-message" rows="3" cols="1" placeholder="Enter your message..." id="chat-box-textarea"></textarea>
 													<div class="row-fluid">
-		                                                <div class="span6 type-effect" style="display:none"><img src="img/loaders/misc/16-2.gif" alt="" /> Victoria is typing...</div>
+		                                                <div class="span6 type-effect" style="display:none"><img src=<%=image_path("loaders/misc/16-2.gif")%> alt="" /> Victoria is typing...</div>
 		                                                <div class="span6 chat-box-buttons pull-right">
 		                                                	<input type="submit" name="chat-box-textarea" class="btn medium btn-danger pull-right" value="Send" id="send-msg-js" />
 		                                                    <a href="javascript:void(0);" title="" class="pull-right"><i class="icon-camera"></i></a>
@@ -549,167 +549,4 @@
 				</div>
 				<!-- end main content -->
 			
-							</div>
-			
-	    </div><!--end fluid-container-->
-		<div class="push"></div>
-	</div>
-	<!-- end .height wrapper -->
-	
-	<!-- footer -->
-	
-	<!-- if you like you can insert your footer here -->
-	
-	<!-- end footer -->
-
-    <!--================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    
-    <!-- Link to Google CDN's jQuery + jQueryUI; fall back to local -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/libs/jquery.min.js"><\/script>')</script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
-    <script>window.jQuery.ui || document.write('<script src="js/libs/jquery.ui.min.js"><\/script>')</script>
-    
-    <!-- IMPORTANT: Jquery Touch Punch is always placed under Jquery UI -->
-    <script src="js/include/jquery.ui.touch-punch.min.js"></script>
-
-	<!-- REQUIRED: Datatable components -->
-    <script src="js/include/jquery.accordion.min.js"></script>
-
-	<!-- REQUIRED: Toastr & Jgrowl notifications  -->
-    <script src="js/include/toastr.min.js"></script>
-    <script src="js/include/jquery.jgrowl.min.js"></script>
-    
-    <!-- REQUIRED: Sleek scroll UI  -->
-    <script src="js/include/slimScroll.min.js"></script>
-	
-	<!-- REQUIRED: Datatable components -->
-	<!-- DISABLED <script src="js/include/jquery.dataTables.min.js"></script> -->
-	<!-- DISABLED <script src="js/include/DT_bootstrap.min.js"></script> -->
-
-	<script type="text/javascript">
-		var ismobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));	
-	    if(!ismobile){
-	    	
-	    	/** ONLY EXECUTE THESE CODES IF MOBILE DETECTION IS FALSE **/
-	    	
-	    	/* REQUIRED: Datatable PDF/Excel output componant */
-	    	
-	    	/*-- document.write('<script src="js/include/ZeroClipboard.min.js"><\/script>'); --*/
-	    	/*-- document.write('<script src="js/include/TableTools.min.js"><\/script>'); --*/
-	    	/*-- document.write('<script src="js/include/jquery.uniform.min.js"><\/script>'); --*/
-	    	/*-- document.write('<script src="js/include/select2.min.js"><\/script>'); --*/
-	    	document.write('<script src="js/include/jquery.excanvas.min.js"><\/script>');
-	    	document.write('<script src="js/include/jquery.placeholder.min.js"><\/script>');
-	    	
-			/** DEMO SCRIPTS **/
-	        $(function() {
-	            /* show tooltips */
-				$.jGrowl("I am the <strong>smartest Admin Template</strong> on <strong>wrapbootstrap.com</strong>. Don't forget to check out all my pages.", { 
-					header: 'Welcome, I am Jarvis!', 
-					sticky: false,
-					life: 5000,
-					speed: 500,
-					theme: 'with-icon',
-					position: 'top-right', //this is default position
-					easing: 'easeOutBack',
-					animateOpen: { 
-						height: "show"
-					},
-					animateClose: { 
-						opacity: 'hide' 
-					}
-				});	
-	        });
-	        /** end DEMO SCRIPTS **/
-	        
-	    }else{
-	    	
-	    	/** ONLY EXECUTE THESE CODES IF MOBILE DETECTION IS TRUE **/
-	    	
-			document.write('<script src="js/include/selectnav.min.js"><\/script>');
-	    	document.write('<script src="js/include/responsive-tables.min.js"><\/script>');
-	    }
-	</script>
-
-    <!-- REQUIRED: iButton -->
-    <!-- DISABLED <script src="js/include/jquery.ibutton.min.js"></script> -->
-	
-	<!-- REQUIRED: Justgage animated charts -->
-    <!-- DISABLED <script src="js/include/justgage.min.js"></script> -->
-    <!-- DISABLED <script src="js/include/raphael.2.1.0.min.js"></script> -->
-    
-    <!-- REQUIRED: Animated pie chart -->
-    <script src="js/include/jquery.easy-pie-chart.min.js"></script>
-    
-    <!-- REQUIRED: Functional Widgets -->
-    <script src="js/include/jarvis.widget.min.js"></script>
-    <script src="js/include/mobiledevices.min.js"></script>
-    <!-- DISABLED (only needed for IE7 <script src="js/include/json2.js"></script> -->
-	
-	<!-- REQUIRED: Full Calendar -->
-    <script src="js/include/jquery.fullcalendar.min.js"></script>		
-    
-    <!-- REQUIRED: Flot Chart Engine -->
-    <script src="js/include/jquery.flot.cust.min.js"></script>			
-    <script src="js/include/jquery.flot.resize.min.js"></script>		
-    <script src="js/include/jquery.flot.tooltip.min.js"></script>		
-    <!-- DISABLED <script src="js/include/jquery.flot.orderBar.min.js"></script> -->	
-    <!-- DISABLED <script src="js/include/jquery.flot.fillbetween.min.js"></script> -->	
-    <!-- DISABLED <script src="js/include/jquery.flot.pie.min.js"></script> --> 	 
-    
-    <!-- REQUIRED: Sparkline Charts -->
-    <script src="js/include/jquery.sparkline.min.js"></script>
-
-	<!-- REQUIRED: Infinite Sliding Menu (used with inbox page) -->
-	<!-- DISABLED  <script src="js/include/jquery.inbox.slashc.sliding-menu.js"></script> -->
-
-	<!-- REQUIRED: Form validation plugin -->
-    <!-- DISABLED <script src="js/include/jquery.validate.min.js"></script> -->
-    
-    <!-- REQUIRED: Progress bar animation -->
-    <script src="js/include/bootstrap-progressbar.min.js"></script>
-    
-    <!-- REQUIRED: wysihtml5 editor -->
-    <script src="js/include/wysihtml5-0.3.0.min.js"></script>
-    <script src="js/include/bootstrap-wysihtml5.min.js"></script>
-
-	<!-- REQUIRED: Masked Input -->
-    <!-- DISABLED  <script src="js/include/jquery.maskedinput.min.js"></script> -->
-    
-    <!-- REQUIRED: Bootstrap Date Picker -->
-    <script src="js/include/bootstrap-datepicker.min.js"></script>
-
-    <!-- REQUIRED: Bootstrap Wizard -->
-    <!-- DISABLED  <script src="js/include/bootstrap.wizard.min.js"></script> -->
-    
-	<!-- REQUIRED: Bootstrap Color Picker -->
-    <!-- DISABLED  <script src="js/include/bootstrap-colorpicker.min.js"></script> -->
-
-    
-	<!-- REQUIRED: Bootstrap Time Picker -->
-    <!-- DISABLED  <script src="js/include/bootstrap-timepicker.min.js"></script> -->
-    
-    <!-- REQUIRED: Bootstrap Prompt -->
-    <!-- DISABLED  <script src="js/include/bootbox.min.js"></script> -->
-    
-    <!-- REQUIRED: Bootstrap engine -->
-    <script src="js/include/bootstrap.min.js"></script>
-    
-    <!-- DO NOT REMOVE: Theme Config file -->
-    <script src="js/config.js"></script>
-    
-    <!-- d3 library placed at the bottom for better performance -->
-    <!-- DISABLED  <script src="js/include/d3.v3.min.js"></script> -->
-    <!-- DISABLED  <script src="js/include/adv_charts/d3-chart-1.js"></script> -->
-    <!-- DISABLED  <script src="js/include/adv_charts/d3-chart-2.js"></script> -->
-
-    <!-- Google Geo Chart -->
-    <!-- DISABLED <script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script> -->
-    <!-- DISABLED <script type='text/javascript' src='https://www.google.com/jsapi'></script>-->
-    <!-- DISABLED <script src="js/include/adv_charts/geochart.js"></script> -->
-    
-    <!-- end scripts -->
-  </body>
-</html>
+				

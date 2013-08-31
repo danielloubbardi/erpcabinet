@@ -62,3 +62,11 @@ INSTALLATION DE BOOTSTRAP
 	puis mettre dans le fichier custom.css.scss la ligne @import "bootstrap";
 
 
+POUR LES IMAGES EN MODE PRODUCTION
+
+utiliser le helper imagepath dans le CSS et mettre l'extension scss pour le fichier
+exemple : background:url(image_path('favicons/apple-touch-icon-retina.png')) top left transparent no-repeat;
+
+
+
+

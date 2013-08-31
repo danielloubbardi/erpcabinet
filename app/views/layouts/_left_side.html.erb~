@@ -1,4 +1,4 @@
-<!-- aside -->	
+				<!-- aside -->	
 				<aside>	
 					
 					<!-- search box -->
@@ -12,7 +12,7 @@
 					<!-- aside item: Mini profile -->
 					<div class="my-profile">
 						<a href="javascript:void(0)" class="my-profile-pic">
-							<img src="img/avatar/avatar_0.jpg" alt="" />
+							<img src=<%=image_path("avatar/avatar_0.jpg") %> alt="" />
 						</a>
 						<span class="first-child">Welcome <strong>Victoria!</strong></span>
 						<span><a href="javascript:void(0);">Edit Profile </a></span>
@@ -109,7 +109,7 @@
 							</button>
 							
 							<a href="javascript:void(0)">
-								<img src="img/email-important.png" width="22" height="18" alt="important mail" />
+								<img src=<%=image_path("email-important.png")%> width="22" height="18" alt="important mail" />
 								From:David S...
 							</a>
 							Dear Victoria, Congratulations! You work has been uploade...
@@ -120,7 +120,7 @@
 								×
 							</button>
 							<a href="javascript:void(0)">
-								<img src="img/email-unread.png" width="22" height="18" alt="important mail" />
+								<img src=<%=image_path("email-unread.png")%> width="22" height="18" alt="important mail" />
 								Re:Last Year...
 							</a>
 							Hey Vicky, find attached! Thx :-)
@@ -131,7 +131,7 @@
 								×
 							</button>
 							<a href="javascript:void(0)">
-								<img src="img/email-unread.png" width="22" height="18" alt="important mail" />
+								<img src=<%=image_path("email-unread.png")%> width="22" height="18" alt="important mail" />
 								Company Party
 							</a>
 							Hi, You have been cordially invited to join new year...
@@ -160,4 +160,4 @@
 		            <!-- end aside buttons -->
 				</aside>
 				<!-- aside end -->
-			
+

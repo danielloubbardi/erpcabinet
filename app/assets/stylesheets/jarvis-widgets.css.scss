@@ -77,7 +77,7 @@
 		-khtml-border-radius  : 3px 3px 0px 0px;
 		-webkit-border-radius : 3px 3px 0px 0px;
 		border-radius         : 3px 3px 0px 0px;
-		/*background-image 	  : url('../img/overlay-pattern.png');*/
+		/*background-image 	  : url(image_path("overlay-pattern.png"));*/
 	} 
 	.ui-sortable .jarviswidget-sortable.jarviswidget-collapsed > header {
 		-moz-border-radius    : 3px;
@@ -292,7 +292,7 @@
 
 	}
 	.jarviswidget-loader{
-		background-image : url("../loaders/type3/light/16.gif");
+		background-image : url(image_path("loaders/type3/light/16.gif"));
 	}
 	.jarviswidget > div{
 		background-color : #fff !important;
@@ -483,7 +483,7 @@
 	.jarviswidget.navyblue > header .jarviswidget-loader,
 	.jarviswidget.pink > header .jarviswidget-loader,
 	.jarviswidget.orange > header .jarviswidget-loader {
-		background-image: url("../loaders/type3/dark/16.gif");
+		background-image: url(image_path("loaders/type3/dark/16.gif"));
 	}
 	
 	
@@ -531,7 +531,7 @@
 		top               : 50%;
 		margin            : -5px 0 0 -5px;
 		background-repeat : no-repeat;
-		background: url(../widget/widget-icon.png) no-repeat top left;
+		background: url(image_path("widget/widget-icon.png")) no-repeat top left;
 	} 
 	
 	.jarviswidget-icon span{ 

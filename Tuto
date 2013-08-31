@@ -31,6 +31,10 @@ RAILS COMMAND LINE BASICS
 	tail -f log/development.log
 
 
+	Pour faire un precompile des assets:
+	RAILS_ENV=production bundle exec rake assets:precompile
+
+
 CREATION D'UN MODÈLE DANS RAILS
 
 	rails generate User nom:string email:string                  (etc....)
