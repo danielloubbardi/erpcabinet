@@ -11,10 +11,11 @@
 										
 					<!-- aside item: Mini profile -->
 					<div class="my-profile">
-						
-						<span class="first-child"><strong><%= current_user.prenom%> <%= current_user.nom%></strong></span>
-						<span><%= link_to "Editer mon profil", controller: "users", action: "edit" %>
-						</span>
+						<a href="javascript:void(0)" class="my-profile-pic">
+							<img src=<%=image_path("avatar/avatar_0.jpg") %> alt="" />
+						</a>
+						<span class="first-child">Welcome <strong>Victoria!</strong></span>
+						<span><a href="javascript:void(0);">Edit Profile </a></span>
 					</div>
 					<div class="divider"></div>
 					<!-- end aside item: Mini profile -->
@@ -23,104 +24,62 @@
 					<div class="sidebar-nav-fixed">
 						
 						<ul class="menu" id="accordion-menu-js">
-							<li class="<% if @classaccordeon=="index"%><%="current"%>"<%else%><%end%>">
-								<a href="javascript:void(0)"><i class="icon-off"></i>Tableaux de bord<span class="badge">2</span></a>
+							<li class="current">
+								<a href="javascript:void(0)"><i class="icon-off"></i>Dashboard <span class="badge">2</span></a>
 								<ul>
 									<li>
-										<a href="index.html" class="<% if @classaccordeon=="index"%><%="expanded"%><%else%><%end%>">Tableau de bord</a>
+										<a href="index.html" class="expanded">Dashboard</a>
 									</li>
 									<li>
-										<%= link_to "Quitter la session", destroy_user_session_path, method: "delete",  class: "logout-js"%>
-									</li>
-									<li>
-										<a href="javascript:void(0)" class="logout-js" data-rel="<%=destroy_user_session_path%>">Quitter la session2</a>
-									</li>
-
-									<li>
-										<a class="logout-js" data-method="delete" href= "/users/sign_out" rel="nofollow">Quitter la session3</a>
+										<a href="javascript:void(0);" class="logout-js" data-rel="login.html">Logout</a>
 									</li>
 								</ul>
 							</li>
-
-							<li class="<% if @classaccordeon=="admincabinet"%><%="current"%><%else%><%end%>">
-								<a href="javascript:void(0)"><i class="icon-envelope"></i>Administration cabinet</a>
-								<ul>
-									<li>
-										<a href="index.html" class="<% if @classaccordeon=="admincabinet"%><%="expanded"%><%else%><%end%>">Gestion des clients</a>
-									</li>
-									<li>
-										<a href="javascript:void(0);" class="logout-js" data-rel="login.html">Quitter la session</a>
-									</li>
-								</ul>							
+							<li class="">
+								<a href="inbox.html"><i class="icon-envelope"></i>Inbox</a>
 							</li>
-
-							
-							<li class="<% if @classaccordeon=="comptabilite"%><%="current"%><%else%><%end%>">
-								<a href="javascript:void(0)"><i class="icon-check"></i>Comptabilité<span class="badge">3</span></a>
+							<li class="">
+								<a href="javascript:void(0)"><i class="icon-check"></i>Forms<span class="badge">3</span></a>
 								<ul>
 									<li>
-										<a href="forms.html" class="<% if @classaccordeon=="comptabilite"%><%="expanded"%><%else%><%end%>">Comptabilite</a>
+										<a href="forms.html">Form Elements</a>
 									</li>
 									<li>
-										<a href="validation.html">Saisie</a>
+										<a href="validation.html">Validation</a>
 									</li>
 									<li>
-										<a href="wizard.html">Lettrage</a>
+										<a href="wizard.html">Wizards</a>
 									</li>
 								</ul>
 							</li>
-							
-							<li class="<% if @classaccordeon=="social"%><%="current"%><%else%><%end%>">
-								<a href="javascript:void(0)"><i class="icon-user"></i>Social<span class="badge">3</span></a>
+							<li class="">
+								<a href="javascript:void(0)"><i class="icon-user"></i>Interface<span class="badge">3</span></a>
 								<ul>
 									<li>
-										<a href="interface.html" class="<% if @classaccordeon=="social"%><%="expanded"%><%else%><%end%>">Paye</a>
+										<a href="interface.html">Interface Elements</a>
 									</li>
 									<li>
-										<a href="buttons.html">Déclarations/DSN</a>
+										<a href="buttons.html">Buttons &amp; Icons</a>
 									</li>
 									<li>
-										<a href="tables.html">Dossiers salariés</a>
+										<a href="tables.html">Tables</a>
 									</li>
 								</ul>
 							</li>
-							<li class="<% if @classaccordeon=="fiscal"%><%="current"%><%else%><%end%>">
-								<a href="javascript:void(0)"><i class="icon-signal"></i>Fiscalité<span class="badge">2</span></a>
+							<li class="">
+								<a href="javascript:void(0)"><i class="icon-signal"></i>Charts &amp; Graphs<span class="badge">2</span></a>
 								<ul>
 									<li>
-										<a href="basic_charts.html" class="<% if @classaccordeon=="social"%><%="expanded"%><%else%><%end%>">TVA</a>
+										<a href="basic_charts.html">Basic Charts</a>
 									</li>
 									<li>
-										<a href="adv_charts.html">Impot sur les sociétés</a>
-									</li>
-									
-									<li>
-										<a href="adv_charts.html">Autres impôts</a>
-									</li>
-									<li>
-										<a href="adv_charts.html">Contrôles fiscaux</a>
+										<a href="adv_charts.html">Advanced Charts</a>
 									</li>
 								</ul>
 							</li>
-
-							<li class="<% if @classaccordeon=="juridique"%><%="current"%><%else%><%end%>">
-								<a href="widgets.html"><i class="icon-refresh"></i>Juridique</a>
-								<ul>
-									<li>
-										<a href="basic_charts.html" class="<% if @classaccordeon=="juridique"%><%="expanded"%><%else%><%end%>">Assemblées</a>
-									</li>
-									<li>
-										<a href="adv_charts.html">Formalités sociétés</a>
-									</li>
-									
-									<li>
-										<a href="adv_charts.html">Cessions fonds de commerces</a>
-									</li>
-								</ul>
-
+							<li class="">
+								<a href="widgets.html"><i class="icon-refresh"></i>Smart Widgets</a>
 							</li>
-
-
 							<li class="">
 								<a href="javascript:void(0)"><i class="icon-plus"></i>Bonus<span class="badge">3</span></a>
 								<ul>

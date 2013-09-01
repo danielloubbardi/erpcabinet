@@ -5,33 +5,22 @@ Erpcabinet::Application.routes.draw do
   match '/help', to: 'static_pages#help', via: 'get'  
   match '/about', to: 'static_pages#about', via: 'get'
   match '/login', to: 'static_pages#login', via: 'get'
-
+  match '/users/edit', to: 'users#edit', via: 'get'
   #match 'clients/list', to: 'clients#list', via: 'get'
 
+  
 
 
 
 
   get "index"=> 'home#index'
-  get "adv_charts" => "home#adv_charts"
-  get "basic_charts"=> 'home#basic_charts'
-  get "buttons"=> 'home#buttons'
-  get "chat"=> 'home#chat'
-  get 'forms' => 'home#forms'
-  get "inbox"=> 'home#inbox'
-  get "interface"=> 'home#interface' 
-  get "invoice"=> 'home#invoice' 
   get "login"=> 'home#login' # a voir car il faut détruire la session et renvoyer sur la page de login générée par devise
-  get "tables" => 'home#tables'
-  get "typography"=> 'home#typography'
-  get "validation"=> 'home#validation'
-  get "widgets"=> 'home#widgets'
-  get "wizard"=> 'home#wizard'
-
-
 
   devise_for :users
   get "users/new"
+
+  get "users/finsession"
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

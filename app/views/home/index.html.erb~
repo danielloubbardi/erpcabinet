@@ -1,5 +1,7 @@
 		
-
+<% content_for :expanded do %>
+  "expanded"
+<% end %>
 				
 				<!-- main content -->
 				<div id="page-content">

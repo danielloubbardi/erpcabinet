@@ -16,7 +16,7 @@
 		</div>		
 
 		<div class="control-group no-border">
-		<div style="text-align: left;">
+		<div style="text-align: right;">
 		<%= render "devise/shared/links" %>
 		</div>
 		</div>		

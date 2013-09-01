@@ -5,4 +5,23 @@ class UsersController < ApplicationController
   def signin
   end
 
+  def edit
+
+    @classaccordeon="edit"
+
+  end
+  
+  def update
+    if @user.update_attributes(user_params)
+      flash[:success] = "Profil mis à jour"
+      sign_in @user
+      redirect_to @user
+    else
+      render 'edit'
+    end
+  end
+
+
 end
+
+
