@@ -6,7 +6,7 @@
 				<div class="contained">
 					
 					<!-- theme name -->
-					<h1> {JARVIS} <span class="hidden-phone">- Smart Admin Template</span> </h1>
+					<h1> ERP Cabinet <span class="hidden-phone"></span> </h1>
 					<!-- end theme name -->
 					
 					<!-- span4 -->
@@ -77,7 +77,7 @@
 										</li>
 										<li>
 											<a href="javascript:void(0)" class="read">
-												<img src=<%=image_path("email-read.png"%> alt="important mail" />
+												<img src=<%=image_path("email-read.png")%> alt="important mail" />
 												Welcome to Jarvis!
 												<i class="icon-paper-clip"></i>
 												<span>Feugiat a, tellus. Phasellus viverra nulla ut metus varius. Quisque rutrum. Aenean imperdiet... </span>

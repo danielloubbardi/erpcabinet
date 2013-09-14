@@ -1,0 +1,25 @@
+client_1:
+
+nom: ABAC DOMICILIATION
+sirene: 123456789
+code_naf: 5478X
+adresse: 8, rue d'estienne d'orves
+code_postal: 94000
+ville: Créteil
+forme_juridique: SARL
+
+
+<%= f.label :capital %><br>
+    <%= f.text_field :capital %>
+  </p>
+
+  <p>
+    <%= f.label :mandataire_social %><br>
+    <%= f.text_field :mandataire_social %>
+  </p>
+
+  <p>
+    <%= f.label :date_immatriculation %><br>
+    <%= f.text_field :date_immatriculation %>
+  </p>
+

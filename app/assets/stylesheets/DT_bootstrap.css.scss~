@@ -89,7 +89,7 @@ div.dataTables_scrollFoot table {
 
 .table tbody tr.active:hover td,
 .table tbody tr.active:hover th {
-	background-color: #0075b0 !important;
+	background-color: #FFFF66 !important;
 }
 
 .table-striped tbody tr.active:nth-child(odd) td,

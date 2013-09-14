@@ -32,13 +32,7 @@
 									<li>
 										<%= link_to "Quitter la session", destroy_user_session_path, method: "delete",  class: "logout-js"%>
 									</li>
-									<li>
-										<a href="javascript:void(0)" class="logout-js" data-rel="<%=destroy_user_session_path%>">Quitter la session2</a>
-									</li>
-
-									<li>
-										<a class="logout-js" data-method="delete" href= "/users/sign_out" rel="nofollow">Quitter la session3</a>
-									</li>
+									
 								</ul>
 							</li>
 

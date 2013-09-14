@@ -1,0 +1,79 @@
+
+<%= form_for @client do |f| %>
+
+  <% if @client.errors.any? %>
+  <div id="errorExplanation">
+    <h2><%= pluralize(@client.errors.count, "error") %> Les erreurs suivantes empêchent la sauvegarde de ce client:</h2>
+    <ul>
+    <% @client.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+  <% end %>
+
+
+
+<div class="control-group">
+<%= f.label :nom, :class => "control-label", ;for=> "input01" %>
+<div class="controls">
+<input type="text" class="span12" id="input01" />
+</div>
+</div>
+
+    
+    <%= f.text_field :nom %>
+
+
+  <p>
+    <%= f.label :sirene %><br>
+    <%= f.text_field :sirene %>
+  </p>
+
+  <p>
+    <%= f.label :code_naf %><br>
+    <%= f.text_field :code_naf %>
+  </p>
+
+  <p>
+    <%= f.label :adresse %><br>
+    <%= f.text_field :adresse %>
+  </p>
+
+  <p>
+    <%= f.label :code_postal %><br>
+    <%= f.text_field :code_postal %>
+  </p>
+
+  <p>
+    <%= f.label :ville %><br>
+    <%= f.text_field :ville %>
+  </p>
+
+  <p>
+    <%= f.label :forme_juridique %><br>
+    <%= f.text_field :forme_juridique %>
+  </p>
+
+  <p>
+    <%= f.label :capital %><br>
+    <%= f.text_field :capital %>
+  </p>
+
+  <p>
+    <%= f.label :mandataire_social %><br>
+    <%= f.text_field :mandataire_social %>
+  </p>
+
+  <p>
+    <%= f.label :date_immatriculation %><br>
+    <%= f.text_field :date_immatriculation %>
+  </p>
+
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+
+

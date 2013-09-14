@@ -1,5 +1,13 @@
 Erpcabinet::Application.routes.draw do
-  root 'clients#list'  
+  devise_for :admins
+  root 'home#index'
+
+  resources :clients
+
+
+
+
+    
 
   match '/home', to: 'static_pages#home', via: 'get'
   match '/help', to: 'static_pages#help', via: 'get'  
@@ -8,11 +16,7 @@ Erpcabinet::Application.routes.draw do
   match '/users/edit', to: 'users#edit', via: 'get'
   #match 'clients/list', to: 'clients#list', via: 'get'
 
-  
-
-
-
-
+ 
   get "index"=> 'home#index'
   get "login"=> 'home#login' # a voir car il faut détruire la session et renvoyer sur la page de login générée par devise
 

@@ -1,5 +1,13 @@
 Erpcabinet::Application.routes.draw do
-  root 'clients#list'  
+  devise_for :admins
+  root 'home#index'
+
+  resources :clients
+
+
+
+
+    
 
   match '/home', to: 'static_pages#home', via: 'get'
   match '/help', to: 'static_pages#help', via: 'get'  
@@ -19,7 +27,7 @@ Erpcabinet::Application.routes.draw do
   devise_for :users
   get "users/new"
 
-get "users/sign_out"
+  get "users/finsession"
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

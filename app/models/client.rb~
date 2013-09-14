@@ -19,6 +19,6 @@
 
 class Client < ActiveRecord::Base
 
-validates :nom, presence: true, length:{minimum: 2}
+validates :nom, presence: true, length:{minimum: 3}
 
 end
