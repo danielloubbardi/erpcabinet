@@ -138,7 +138,9 @@
 														<div class="form-actions">
 															
 															<%= link_to 'Annuler', clients_path, :class=>"btn medium btn-danger"%>
-															<%= link_to 'Editer', client_path_edit, :class=>"btn medium btn-primary"%>
+															<%= link_to 'Editer', edit_client_path, :class=>"btn medium btn-primary"%>
+															<%= link_to 'Supprimer', client_path(@client), :class=>"btn medium btn-danger",
+																method: :delete, data: {confirm: 'Etes vous sûr?'} %>
 															
 														</div>
 

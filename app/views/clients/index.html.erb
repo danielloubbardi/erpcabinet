@@ -8,6 +8,24 @@
 						<!-- widget grid -->
 						<section id="widget-grid" class="">
 							
+
+							<!-- row-fluid -->
+								<div class="row-fluid" style="margin-bottom:2em;">
+									
+								<% flash.each do |name, msg| -%>
+								  <%= content_tag :div, msg, class: "alert adjusted alert-success" %>
+
+								<div class="alert adjusted alert-success">
+								<button class="close" data-dismiss="alert">×</button>
+								<i class="cus-accept"></i>
+								<strong><%= msg %></strong>
+								</div>
+
+
+								<% end -%>
+								</div>
+							<!-- end row-fluid -->
+
 							<!-- row-fluid -->
 							<div class="row-fluid" style="margin-bottom:2em;">
 							<a class="btn btn-small" href="clients/new">Nouveau client</a>
@@ -59,8 +77,8 @@
 															<th>Ville</th>
 															<th>Téléphone fixe</th>
 															<th>Afficher</th>
-															<th>Editer</th>
-															<th>Supprimer</th>
+															<!--<th>Editer</th>-->
+															<!--<th>Supprimer</th>-->
 														</tr>
 													</thead>
 													<tbody>
@@ -72,9 +90,9 @@
 															<td><%= client.ville%></td>
 															<td><%= client.telephone%></td>
 															<td><%= link_to 'Afficher', client_path(client) %></td>
-															<td><%= link_to 'Editer', edit_client_path(client) %></td>
-															<td><%= link_to 'Supprimer', client_path(client), 
-																method: :delete, data: {confirm: 'Etes vous sûr?'} %></td>
+															<!--<td><%= link_to 'Editer', edit_client_path(client) %></td>-->
+															<!--<td><%= link_to 'Supprimer', client_path(client), 
+																method: :delete, data: {confirm: 'Etes vous sûr?'} %></td>-->
 
 														</tr>
 													<%end%>

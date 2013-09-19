@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<%= csrf_meta_tag %>
+    <%= csrf_meta_tag %>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     
@@ -81,7 +81,7 @@
 			
 		</div><!--end fluid-container-->
 		
-		<div class="push"></div>
+		
 	</div>
 	<!-- end .height wrapper -->
 	

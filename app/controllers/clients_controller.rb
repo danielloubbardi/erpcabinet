@@ -46,7 +46,8 @@ before_filter :authenticate_user!
   def destroy
     @client = Client.find(params[:id])
     @client.destroy
- 
+	flash[:notice] = "Le client à été supprimé de la base de données!" 
+ 	#flash.keep
     redirect_to clients_path
   end
 
