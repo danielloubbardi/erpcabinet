@@ -11,15 +11,16 @@
 	    	
 	    	/* REQUIRED: Datatable PDF/Excel output componant */
 	    	
-	    	document.write("<%= escape_javascript(javascript_include_tag "application-notmobile") %>");
+	    	document.write(<%= escape_javascript(javascript_include_tag "application-notmobile") %>);
 	    	
 				    }else{
 	    	
 	    	/** ONLY EXECUTE THESE CODES IF MOBILE DETECTION IS TRUE **/
 	    	
-			document.write("<%= escape_javascript(javascript_include_tag "application-ismobile") %>");
+			document.write(<%= escape_javascript(javascript_include_tag "application-ismobile") %>);
 	    }
 	</script>
+
 
   
     <!-- Google Geo Chart -->
