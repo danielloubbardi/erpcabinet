@@ -2,9 +2,9 @@ Erpcabinet::Application.routes.draw do
   devise_for :admins
   root 'home#index'
 
-  resources :clients
-
-
+  resources :clients do
+  resources :contacts
+  end
 
 
     

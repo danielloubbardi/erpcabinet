@@ -13,12 +13,10 @@
 								<div class="row-fluid" style="margin-bottom:2em;">
 									
 								<% flash.each do |name, msg| -%>
-								  <%= content_tag :div, msg, class: "alert adjusted alert-success" %>
-
-								<div class="alert adjusted alert-success">
+								 <div class="alert adjusted alert-success">
 								<button class="close" data-dismiss="alert">×</button>
 								<i class="cus-accept"></i>
-								<strong><%= msg %></strong> The page has been added.
+								<strong><%= msg %></strong>
 								</div>
 
 
@@ -83,13 +81,13 @@
 													</thead>
 													<tbody>
 													<% @clients.each do |client|%>
-														<tr>
+														<tr><%= link_to '', client_path(client)%>
 															<td><%= client.nom%></td>
 															<td><%= client.adresse%></td>
 															<td><%= client.code_postal%></td>
 															<td><%= client.ville%></td>
 															<td><%= client.telephone%></td>
-															<td><%= link_to 'Afficher', client_path(client) %></td>
+															<td><%= link_to '', client_path(client), class: "cus-magnifier"%></td>
 															<!--<td><%= link_to 'Editer', edit_client_path(client) %></td>-->
 															<!--<td><%= link_to 'Supprimer', client_path(client), 
 																method: :delete, data: {confirm: 'Etes vous sûr?'} %></td>-->

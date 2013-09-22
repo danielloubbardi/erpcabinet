@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130914162206) do
+ActiveRecord::Schema.define(version: 20130919025601) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -49,6 +49,22 @@ ActiveRecord::Schema.define(version: 20130914162206) do
     t.datetime "date_immatriculation"
     t.string   "telephone"
   end
+
+  create_table "contacts", force: true do |t|
+    t.string   "nom"
+    t.string   "prenom"
+    t.string   "adresse"
+    t.string   "datenaissance"
+    t.string   "type"
+    t.string   "telephonefixe"
+    t.string   "telephoneportable"
+    t.string   "numerosecu"
+    t.integer  "client_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "contacts", ["client_id"], name: "index_contacts_on_client_id", using: :btree
 
   create_table "roles", force: true do |t|
     t.string   "name"

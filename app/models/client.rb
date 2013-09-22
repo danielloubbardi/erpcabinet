@@ -19,6 +19,7 @@
 
 class Client < ActiveRecord::Base
 
+has_many :contacts
 validates :nom, presence: true, length:{minimum: 2}
 
 end

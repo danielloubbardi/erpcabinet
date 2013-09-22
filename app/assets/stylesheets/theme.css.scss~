@@ -1485,7 +1485,7 @@
 	/*	Forms
 	/* ---------------------------------------------------------------------- */
 	
-	/*field set is floated to be responsive */
+	/*field set is floated to be responsiv#B0BED9e */
 	.form-horizontal fieldset {
 		float: left;
 		width: 100%;
@@ -1564,6 +1564,7 @@
 	.form-horizontal .control-label {
 		padding-top: 4px;
 		text-align: left;
+		width: 80px
 	}
 	.form-horizontal .help-inline {
 		display:block;

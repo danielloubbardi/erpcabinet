@@ -7,7 +7,25 @@
 						
 						<!-- widget grid -->
 						<section id="widget-grid" class="">
-							
+
+								<!-- row-fluid -->
+								<!--Message flash -->
+								<div class="row-fluid" style="margin-bottom:2em;">
+									
+								<% flash.each do |name, msg| -%>
+								 <div class="alert adjusted alert-success">
+								<button class="close" data-dismiss="alert">×</button>
+								<i class="cus-accept"></i>
+								<strong><%= msg %></strong>
+								</div>
+
+
+								<% end -%>
+								</div>
+								<!--Fin Message flash -->
+								<!-- fin row-fluid -->	
+
+						
 							<!-- row-fluid -->
 							
 							<div class="row-fluid">
@@ -15,7 +33,7 @@
 									<!-- new widget -->
 									<div class="jarviswidget" id="widget-id-0">
 									    <header>
-									        <h2></h2>                           
+									        <h2>Détails</h2>                           
 									    </header>
 									    <!-- wrap div -->
 									    <div>
@@ -58,93 +76,86 @@
 													  <% end %>
 
 
+													<div class="control-group">
+													
+													  <!--<div class="controls">-->
+														
+												<div class="span5">
+												<label class="control-label" for="client_nom">Nom</label>
+												<%= f.text_field :nom,:class=>"", :readonly => true, :style=>"width: 350px"%>
+												</div>
 
-
-													<div class="control-group">
-													  <%= f.label :nom, :class => "control-label"%>
-													  <div class="controls">
-													  <%= f.text_field :nom,:class=>"span12", :readonly => true%> 
-													  </div>
-													</div>
- 
-													<div class="control-group">
-													  <%= f.label :sirene, :class => "control-label"%>
-													  <div class="controls">
-													  <%= f.text_field :sirene,:class=>"span12", :readonly => true%> 
-													  </div>
-													</div>
-<div class="control-group">
-													  <%= f.label :code_naf, :class => "control-label"%>
-													  <div class="controls">
-													  <%= f.text_field :code_naf,:class=>"span12", :readonly => true%> 
-													  </div>
-													</div>
-    
-													<div class="control-group">
-													  <%= f.label :adresse, :class => "control-label"%>
-													  <div class="controls">
-													  <%= f.text_field :adresse,:class=>"span12", :readonly => true%> 
-													  </div>
-													</div>
-
-													<div class="control-group">
-													  <%= f.label :code_postal, :class => "control-label"%>
-													  <div class="controls">
-													  <%= f.text_field :code_postal,:class=>"span12", :readonly => true%> 
-													  </div>
-													</div>
-
-													<div class="control-group">
-													  <%= f.label :ville, :class => "control-label"%>
-													  <div class="controls">
-													  <%= f.text_field :ville,:class=>"span12", :readonly => true%> 
-													  </div>
-													</div>
-
-													<div class="control-group">
-													  <%= f.label :forme_juridique, :class => "control-label"%>
-													  <div class="controls">
-													  <%= f.text_field :forme_juridique,:class=>"span12", :readonly => true%> 
-													  </div>
-													</div>
-
-													<div class="control-group">
-													  <%= f.label :capital, :class => "control-label"%>
-													  <div class="controls">
-													  <%= f.text_field :capital,:class=>"span12", :readonly => true%> 
-													  </div>
-													</div>
-
-													<div class="control-group">
-													  <%= f.label :mandataire_social, :class => "control-label"%>
-													  <div class="controls">
-													  <%= f.text_field :mandataire_social,:class=>"span12", :readonly => true%> 
-													  </div>
-													</div>
-
-													<div class="control-group">
-													  <%= f.label :date_immatriculation, :class => "control-label", :readonly => true%>
-													  <div class="controls">
+												<div class="span3">
+												<label class="control-label" for="client_forme_juridique" style="width: 90px">Forme juridique</label>
+												<%= f.text_field :forme_juridique,:class=>"", :readonly => true, :style=>"width: 180px"%> 
+												</div>
+													
+													<div class="span4">
+													<label class="control-label" for="client_date_immatriculation" style="width: 90px">Date création</label>
 													<div class="input-append date" id="datepicker-js" data-date="" data-date-format="dd-mm-yyyy">
 													<input class="datepicker-input" id="client_date_immatriculation" name="client[date_immatriculation]" size="16" type="text" value="" placeholder="Selectionnez une date" />
 													<span class="add-on"><i class="cus-calendar-2"></i></span>
 													</div>
+													</div>
 													
-													  </div>
+													
+															
+													   <!--</div>-->
+													</div>
+												
+												<div class="control-group">
+													<div class="span5">
+									<label class="control-label" for="client_capital">Capital</label>
+													  <%= f.text_field :capital,:class=>"", :readonly => true%> 
+													</div>
+														<div class="span3">
+														<label class="control-label" for="client_sirene" style="width: 90px">Sirene</label>
+														<%= f.text_field :sirene,:class=>"", :readonly => true, :style=>"width: 80px"%>
+														</div>
+														<div class="span4">
+													  	<%= f.label :code_naf, :class => "control-label"%>
+													<%= f.text_field :code_naf, :readonly => true, :style=>"width: 80px"%> 
+													  	</div>
+													  
+												</div>
+
+													<div class="control-group">
+														<div class="span5">
+													  	<%= f.label :adresse, :class => "control-label"%>
+													  	<%= f.text_field :adresse,:class=>"", :readonly => true, :style=>"width: 350px"%> 
+													  	</div>
+													
+														<div class="span3">
+													  	<label class="control-label" for="client_code_postal" style="width: 90px">Code postal</label>
+													  	<%= f.text_field :code_postal, :class=>"", :readonly => true, :style=>"width: 80px"%> 
+													  	</div>
+													
+														<div class="span4">
+														<%= f.label :ville, :class => "control-label"%>
+													  	<%= f.text_field :ville,:class=>"", :readonly => true, :style=>"width: 290px"%> 
+														</div>
 													</div>
 
- 
+													
+													
+													
+													
+						
+
+													
+
+																											
 														
-														<div class="form-actions">
-															
-															<%= link_to 'Annuler', clients_path, :class=>"btn medium btn-danger"%>
-															<%= link_to 'Editer', edit_client_path, :class=>"btn medium btn-primary"%>
-															<%= link_to 'Supprimer', client_path(@client), :class=>"btn medium btn-danger",
-																method: :delete, data: {confirm: 'Etes vous sûr?'} %>
-															
-														</div>
 
 													<% end %>
+
+
+													<!-- Contacts -->
+
+
+													<!--<%= render @client.contacts %>-->
+
+
 
 													<!--</fieldset>-->
 												<!--</form>-->
@@ -157,7 +168,87 @@
 								</article>
 							</div>
 							
-							<!-- end row-fluid -->			
+							<!-- end row-fluid -->	
+
+
+
+
+
+	<div class="row-fluid">
+								<article class="span12">
+									<!-- new widget -->
+									<div class="jarviswidget" id="widget-id-5">
+									    <header>
+									        <h2>Contacts</h2>                           
+									    </header>
+									    <!-- wrap div -->
+									    <div>
+									    
+									        <div class="jarviswidget-editbox">
+									            <div>
+									                <label>Title:</label>
+									                <input type="text" />
+									            </div>
+									            <div>
+									                <label>Styles:</label>
+									                <span data-widget-setstyle="purple" class="purple-btn"></span>
+									                <span data-widget-setstyle="navyblue" class="navyblue-btn"></span>
+									                <span data-widget-setstyle="green" class="green-btn"></span>
+									                <span data-widget-setstyle="yellow" class="yellow-btn"></span>
+									                <span data-widget-setstyle="orange" class="orange-btn"></span>
+									                <span data-widget-setstyle="pink" class="pink-btn"></span>
+									                <span data-widget-setstyle="red" class="red-btn"></span>
+									                <span data-widget-setstyle="darkgrey" class="darkgrey-btn"></span>
+									                <span data-widget-setstyle="black" class="black-btn"></span>
+									            </div>
+									        </div>
+            
+									        <div class="inner-spacer"> 
+									        <!-- content goes here -->
+													<table class="table text-left table-bordered table-hover responsive" id="just-table">
+													
+													<thead>
+														<tr>
+															<th>Nom</th>
+															<th>Prénom</th>	
+															<th>type</th>
+															<th>Telephone fixe</th>
+															<th>Téléphone portable</th>
+														</tr>
+													</thead>
+													<tbody>
+
+													<%= render @client.contacts %>
+													</tbody>
+													</table>
+
+  </div>
+										    <!-- end content-->
+									    </div>
+									    <!-- end wrap div -->
+									</div>
+									<!-- end widget -->
+								</article>
+							</div>
+							
+							<!-- end row-fluid -->
+
+
+
+<div class="form-actions">
+															
+															<%= link_to 'Annuler', clients_path, :class=>"btn medium btn-success"%>
+															<%= link_to 'Editer', edit_client_path, :class=>"btn medium btn-primary"%>
+															<%= link_to 'Supprimer', client_path(@client), :class=>"btn medium btn-danger",
+																method: :delete, data: {confirm: 'Etes vous sûr?'} %>
+
+<%= link_to 'Editer les contacts', @client.contact, :class=>"btn medium btn-success"%>
+															
+														</div>
+
+
+
+		
 														
 						</section>
 						<!-- end widget grid -->
