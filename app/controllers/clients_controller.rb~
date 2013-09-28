@@ -10,7 +10,7 @@ before_filter :authenticate_user!
   #render text: params[:client].inspect
     @client = Client.new(client_params)
 	if @client.save
-	flash.now[:success] = "Le nouveau client a été créé avec succès!"
+	flash[:success] = "Le nouveau client a été créé avec succès!"
 	redirect_to @client
 	else
 	render 'new'
@@ -21,7 +21,17 @@ before_filter :authenticate_user!
   def show
   @client = Client.find(params[:id])
   edit_client_path=@client
+  
+  #@contact=@client.contacts(Contact.find(params[:id]))
+  
   end
+
+  def show_contact
+  redirect_to contact_url(@contact)  
+  
+  end
+
+
 
   def index
   @clients = Client.all

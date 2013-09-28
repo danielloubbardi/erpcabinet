@@ -151,35 +151,7 @@
 
 
 
-													<!-- Contacts -->
-
-
-													<%= form_for([@client, @client.contacts.build]) do |f| %>
-
-													<div class="control-group">
-													  <%= f.label :nom, :class => "control-label"%>
-													  <div class="controls">
-													  <%= f.text_field :nom,:class=>"span12"%> 
-													  </div>
-													</div>
-
-													<div class="control-group">
-													  <%= f.label :prenom, :class => "control-label"%>
-													  <div class="controls">
-													  <%= f.text_field :prenom,:class=>"span12"%> 
-													  </div>
-													</div>
-														<div class="form-actions">
-															<%= link_to 'Annuler', clients_path, :class=>"btn medium btn-success"%>
-															<%= link_to 'Editer', edit_client_path, :class=>"btn medium btn-primary"%>
-															<%= link_to 'Supprimer', client_path(@client), :class=>"btn medium btn-danger",
-																method: :delete, data: {confirm: 'Etes vous sûr?'} %>
-															<button type="submit" class="btn medium btn-primary">
-															Valider
-															</button>
-														</div>
-													<%end%>
-
+													
 
 
 													<!--</fieldset>-->

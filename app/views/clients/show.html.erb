@@ -211,14 +211,16 @@
 														<tr>
 															<th>Nom</th>
 															<th>Prénom</th>	
-															<th>type</th>
+															<th>Fonction</th>
 															<th>Telephone fixe</th>
 															<th>Téléphone portable</th>
+															<th>Editer</th>
 														</tr>
 													</thead>
 													<tbody>
 
 													<%= render @client.contacts %>
+
 													</tbody>
 													</table>
 
@@ -237,13 +239,11 @@
 
 <div class="form-actions">
 															
-															<%= link_to 'Annuler', clients_path, :class=>"btn medium btn-success"%>
+															<%= link_to 'Retour', clients_path, :class=>"btn medium btn-success"%>
 															<%= link_to 'Editer', edit_client_path, :class=>"btn medium btn-primary"%>
 															<%= link_to 'Supprimer', client_path(@client), :class=>"btn medium btn-danger",
 																method: :delete, data: {confirm: 'Etes vous sûr?'} %>
 
-<%= link_to 'Editer les contacts', @contacts, :class=>"btn medium btn-success"%>
-															
 														</div>
 
 

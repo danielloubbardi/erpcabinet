@@ -21,7 +21,17 @@ before_filter :authenticate_user!
   def show
   @client = Client.find(params[:id])
   edit_client_path=@client
+  
+  #@contact=@client.contacts(Contact.find(params[:id]))
+  
   end
+
+  def show_contact
+  redirect_to contact_url(@contact)  
+  
+  end
+
+
 
   def index
   @clients = Client.all

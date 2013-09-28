@@ -1,11 +1,8 @@
-	<tr class="odd gradeX">
+	<tr class="">
 		<td><%= contact.nom %></td>
 		<td><%= contact.prenom %></td>
-		<td><%= contact.type %></td>
+		<td><%= contact.fonction %></td>
 		<td><%= contact.telephonefixe %></td>
 		<td><%= contact.telephoneportable %></td>
+		<td><%= link_to "", client_contact_path(@client, contact.id),  class: "cus-magnifier"%></td>
 	</tr>
-														
-													
-
-	
