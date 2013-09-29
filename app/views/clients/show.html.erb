@@ -238,7 +238,10 @@
 
 
 <div class="form-actions">
-															
+
+			<%= link_to 'Ajouter un contact', new_client_contact_path(@client), :remote => true,:class=>"btn medium btn-success"%>
+								
+							
 															<%= link_to 'Retour', clients_path, :class=>"btn medium btn-success"%>
 															<%= link_to 'Editer', edit_client_path, :class=>"btn medium btn-primary"%>
 															<%= link_to 'Supprimer', client_path(@client), :class=>"btn medium btn-danger",
@@ -252,10 +255,20 @@
 														
 						</section>
 						<!-- end widget grid -->
+					
+
+<div id="new_contact"></div>
+
+
+
 					</div>		
 
 				</div>
 				<!-- end main content -->
+
+
+
+
 
 
 

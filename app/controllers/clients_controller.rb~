@@ -4,11 +4,27 @@ before_filter :authenticate_user!
 
   def new
   @client = Client.new
+
+
+respond_to do |format|
+  format.html
+  format.js
+end
+
+
+
   end
 
   def create
   #render text: params[:client].inspect
     @client = Client.new(client_params)
+
+respond_to do |format|
+  format.html
+  format.js
+end
+
+
 	if @client.save
 	flash[:success] = "Le nouveau client a été créé avec succès!"
 	redirect_to @client

@@ -19,7 +19,9 @@
 
 class Client < ActiveRecord::Base
 
-has_many :contacts
+has_many :contacts, dependent: :destroy
 validates :nom, presence: true, length:{minimum: 2}
+
+#accepts_nested_attributes_for :contacts
 
 end
